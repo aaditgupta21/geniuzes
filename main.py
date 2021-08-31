@@ -50,6 +50,16 @@ def adi():
     # starting and empty input default
     return render_template("adi.html", nick="World")
 
+@app.route('/rohit', methods=['GET', 'POST'])
+def rohit():
+    # submit button has been pushed
+    if request.form:
+        name = request.form.get("name")
+        if len(name) != 0:  # input field has content
+            return render_template("rohit.html", nick=name)
+    # starting and empty input default
+    return render_template("rohit.html", nick="World")
+
 
 # runs the application on the development server
 if __name__ == "__main__":
