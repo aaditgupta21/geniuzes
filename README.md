@@ -1,12 +1,18 @@
 ## [Flask Portfolio Starter](https://nighthawkcodingsociety.com/projectsearch/details/Flask%20Portfolio%20Starter)
 Runtime link: https://portfolio.nighthawkcodingsociety.com/
 ### Idea
-Starter code should be fun and practical.
-### Visual thoughts
-#### Organize with Bootstrap menu 
-#### Add some color and fun through VANTA Visuals (birds, halo, solar, net)
-#### Show some practical and fun links (hrefs) like Twitter, Git, Youtube
-#### Show project specific links (hrefs) per page
+
+
+## Project Credits
+Contributor | GitHub Link | Journal Links
+----------- | ----------- | -------------
+Aadit Gupta | [@aaditgupta21](https://github.com/aaditgupta21) | [Aadit Gupta & Adi Khandelwal Journal](https://docs.google.com/document/d/18m2DBuJrDUOoWUPMxL7_-LjTvGnrwFLhQMYxaZReocM/edit?usp=sharing)
+Adi Khandelwal | [@Adi-K-Coding](https://github.com/Adi-K-Coding) | [Aadit GUpta & Adi Khandelwal Journal](https://docs.google.com/document/d/18m2DBuJrDUOoWUPMxL7_-LjTvGnrwFLhQMYxaZReocM/edit?usp=sharing)
+Rohit De | [@rohitd3](https://github.com/rohitd3) | [Rohit De & Rohan Gaikwad Journal](https://docs.google.com/document/d/1c5PIYwjII7IuVlCnkpn-ORHjwLj-XQIN5B2BWxP6aOw/edit?usp=sharing)
+Rohan Gaikwad | [@rohang326](https://github.com/rohang326) | [Rohit De & Rohan Gaikwad Journal](https://docs.google.com/document/d/1c5PIYwjII7IuVlCnkpn-ORHjwLj-XQIN5B2BWxP6aOw/edit?usp=sharing)
+
+
+
 
 ### Implementation progress (August 13th, 2021)
 #### Project entry point is main.py, this enables Flask Web App and provides capability to renders templates (HTML files)
