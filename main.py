@@ -60,6 +60,13 @@ def rohit():
     # starting and empty input default
     return render_template("rohit.html", nick="World")
 
+@app.route('/rohan', methods=['GET', 'POST'])
+def rohan():
+    if request.form:
+        name = request.form.get("name")
+        if len(name) != 0:
+            return render_template("rohan.html", name1=name)
+    return render_template("rohan.html", name1="homie")
 
 # runs the application on the development server
 if __name__ == "__main__":
