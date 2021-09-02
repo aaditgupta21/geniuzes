@@ -48,7 +48,7 @@ def adi():
         if len(name) != 0:  # input field has content
             return render_template("adi.html", nick=name)
     # starting and empty input default
-    return render_template("adi.html", nick="World")
+    return render_template("adi.html", nick="______")
 
 @app.route('/rohit', methods=['GET', 'POST'])
 def rohit():

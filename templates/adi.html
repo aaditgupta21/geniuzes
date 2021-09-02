@@ -6,15 +6,16 @@
 
 <!- This is a replacement block for Body in base.html -->
 {% block body %}
-<div class="center-block" style="margin: 2% 5% 5%; text-align:left; font-family: gilroy,serif;">
+<p style="text-align: center; font-size: 100px; font-weight: 600;">Adi Khandelwal</p>
+<div class="center-block" style="margin: 2% 5% 5%; text-align:center; font-family: gilroy,serif;">
     <div class="col-12">
-        <p>Hello, {{nick}}!</p>
+        <p>What's Up, {{nick}}!</p>
     </div>
     <div class="col-12">
         <form action="/adi" id="greet" method="POST" >
-            <label for="name">Type a greeting name?</label>
+            <label for="name">Enter an input</label>
             <input name="name" id="name">
-            <input type="submit" value="Greetings!">
+            <input type="submit" value="Enter">
         </form>
     </div>
 </div>
@@ -22,6 +23,18 @@
 
 <!- This is turning off birds background from base.html -->
 {% block background %}
+<script src="{{ url_for('static', filename='three.r119.min.js') }}"></script>
+<script src="{{ url_for('static', filename='vanta.rings.min.js') }}"></script>
+<script>
+    VANTA.RINGS({
+        el: "body",
+        mouseControls: true,
+        touchControls: true,
+        gyroControls: false,
+        minHeight: 200.00,
+        minWidth: 200.00
+    })
+</script>
 {% endblock %}
 
 
