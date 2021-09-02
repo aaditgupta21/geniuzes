@@ -39,7 +39,7 @@ def aadit():
         if len(name) != 0:
             return render_template("aadit.html", name=name)
     return render_template("aadit.html", name="World")
-
+#adis route
 @app.route('/adi', methods=['GET', 'POST'])
 def adi():
     # submit button has been pushed
