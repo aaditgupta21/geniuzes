@@ -58,7 +58,7 @@ def rohit():
         if len(name) != 0:  # input field has content
             return render_template("rohit.html", nick=name)
     # starting and empty input default
-    return render_template("rohit.html", nick="World")
+    return render_template("rohit.html", nick="there")
 
 @app.route('/rohan', methods=['GET', 'POST'])
 def rohan():

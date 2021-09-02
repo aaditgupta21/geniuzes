@@ -6,20 +6,21 @@
 
 <!- This is a replacement block for Body in base.html -->
 {% block body %}
-<div class="center-block" style="margin: 2% 5% 5%; text-align:left; font-family: gilroy,serif;">
-    <div class="col-12">
-        <p>Hello, {{nick}}!</p>
+<p style="text-align: center; font-size: 60px; font-weight: 600;">Rohit De<br> Home Page</p>
+<div class="center-block" style="margin: 2% 5% 5%; text-align:center; font-family: gilroy,serif;">
+    <div class="col-0">
+        <p style="font-size: 30px">Hello {{nick}}!</p>
     </div>
-    <div class="col-12">
-        <form action="/greet" id="greet" method="POST" >
-            <label for="name">Type a greeting name?</label>
-            <input name="name" id="name">
-            <input type="submit" value="Greetings!">
+    <div class="col-0">
+        <form action="/rohit" id="greet" method="POST" >
+            <label style="font-size: 30px;" for="name">Type a greeting name?</label>
+            <input style="font-size: 30px;" name="name" id="name">
+            <input style="font-size: 30px;" type="submit" value="Click Me!">
         </form>
     </div>
-    {#        <div class="col-12">#}
-    {#            <img src="/static/assets/PythonFlask.jpeg" style="height: 400px" >#}
-    {#        </div>#}
+<!--    {#        <div class="col-12">#}-->
+<!--    {#            <img src="/static/assets/PythonFlask.jpeg" style="height: 400px" >#}-->
+<!--    {#        </div>#}-->
 </div>
 {% endblock %}
 
