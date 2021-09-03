@@ -39,7 +39,7 @@ def aadit():
         if len(name) != 0:
             return render_template("aadit.html", name=name)
     return render_template("aadit.html", name="World")
-
+#adis route
 @app.route('/adi', methods=['GET', 'POST'])
 def adi():
     # submit button has been pushed
@@ -48,7 +48,7 @@ def adi():
         if len(name) != 0:  # input field has content
             return render_template("adi.html", nick=name)
     # starting and empty input default
-    return render_template("adi.html", nick="World")
+    return render_template("adi.html", nick="______")
 
 @app.route('/rohit', methods=['GET', 'POST'])
 def rohit():
