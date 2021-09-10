@@ -5,3 +5,14 @@ Aadit Gupta | [@aaditgupta21](https://github.com/aaditgupta21) | [Tasks](https:/
 Adi Khandelwal | [@Adi-K-Coding](https://github.com/Adi-K-Coding) | [Tasks](https://github.com/aaditgupta21/flask_portfolio/issues) | [Scrum Board](https://github.com/aaditgupta21/flask_portfolio/projects/1) | [Commits](https://github.com/aaditgupta21/flask_portfolio/commits/main?author=Adi-K-Coding) | [Aadit Gupta & Adi Khandelwal Journal](https://docs.google.com/document/d/18m2DBuJrDUOoWUPMxL7_-LjTvGnrwFLhQMYxaZReocM/edit?usp=sharing)
 Rohit De | [@rohitd3](https://github.com/rohitd3) | [Tasks](https://github.com/aaditgupta21/flask_portfolio/issues) | [Scrum Board](https://github.com/aaditgupta21/flask_portfolio/projects/1) | [Commits](https://github.com/aaditgupta21/flask_portfolio/commits/main?author=rohitd3) | [Rohit De & Rohan Gaikwad Journal](https://docs.google.com/document/d/1c5PIYwjII7IuVlCnkpn-ORHjwLj-XQIN5B2BWxP6aOw/edit?usp=sharing)
 Rohan Gaikwad | [@rohang326](https://github.com/rohang326) | [Tasks](https://github.com/aaditgupta21/flask_portfolio/issues) | [Scrum Board](https://github.com/aaditgupta21/flask_portfolio/projects/1) | [Commits](https://github.com/aaditgupta21/flask_portfolio/commits/main?author=rohang326) | [Rohit De & Rohan Gaikwad Journal](https://docs.google.com/document/d/1c5PIYwjII7IuVlCnkpn-ORHjwLj-XQIN5B2BWxP6aOw/edit?usp=sharing)
+
+
+## Sprint 1
+
+## Sprint 2
+
+## Sprint 3
+
+## Sprint 4
+
+### Sprint 5
