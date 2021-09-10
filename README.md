@@ -1,5 +1,5 @@
 ## Project Credits
-Contributor | GitHub | Tasks | Scrum Board Links | Commit | Journal Links
+Contributor | GitHub | Tasks | Scrum Board | Commit | Journal Links
 ----------- | ----------- | ------------- | ------------- | ------------- | -------------
 Aadit Gupta | [@aaditgupta21](https://github.com/aaditgupta21) | [Tasks](https://github.com/aaditgupta21/flask_portfolio/issues) | [Scrum Board](https://github.com/aaditgupta21/flask_portfolio/projects/1)  | [Commits](https://github.com/aaditgupta21/flask_portfolio/commits/main?author=aaditgupta21) |[Aadit Gupta & Adi Khandelwal Journal](https://docs.google.com/document/d/18m2DBuJrDUOoWUPMxL7_-LjTvGnrwFLhQMYxaZReocM/edit?usp=sharing)
 Adi Khandelwal | [@Adi-K-Coding](https://github.com/Adi-K-Coding) | [Tasks](https://github.com/aaditgupta21/flask_portfolio/issues) | [Scrum Board](https://github.com/aaditgupta21/flask_portfolio/projects/1) | [Commits](https://github.com/aaditgupta21/flask_portfolio/commits/main?author=Adi-K-Coding) | [Aadit Gupta & Adi Khandelwal Journal](https://docs.google.com/document/d/18m2DBuJrDUOoWUPMxL7_-LjTvGnrwFLhQMYxaZReocM/edit?usp=sharing)
