@@ -30,7 +30,7 @@ Technical Lead. Coordinate brain write session, after preliminary wire frames, m
 Navigators. Capture or build highlight of Ideation in README.md, this allows ideas to persist with Project,  Make sure that work from Developers works to expectations (testing, suggestions for improvement) | h |
 Developers. Bootstrap drop downs in navbar, start to form Wire Frame menu options.  Each menu option should have a Stub code page | h |
 Developers. Integration of Greet like functionality into a mini-lab page | h |
-Developers. Integration of Video Journal 0 into a mini-lab page | h |
+Developers. Integration of Video Journal 0 into a mini-lab page | [Video Journal 0 embedded into portfolio ](https://www.youtube.com/playlist?list=PLT0pUL77e5RFi8ZPMgJNCi7Gp_5K-BZ0K) |
 
 
 ## Sprint 3 Week 3
