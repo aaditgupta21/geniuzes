@@ -12,6 +12,10 @@ Rohit De | [@rohitd3](https://github.com/rohitd3) | [Tasks](https://github.com/a
 Rohan Gaikwad | [@rohang326](https://github.com/rohang326) | [Tasks](https://github.com/aaditgupta21/flask_portfolio/issues) | [Scrum Board](https://github.com/aaditgupta21/flask_portfolio/projects/1) | [Commits](https://github.com/aaditgupta21/flask_portfolio/commits/main?author=rohang326) | [Rohit De & Rohan Gaikwad Journal](https://docs.google.com/document/d/1c5PIYwjII7IuVlCnkpn-ORHjwLj-XQIN5B2BWxP6aOw/edit?usp=sharing)
 
 
+Requirements | Evidence |
+----------- | ----------- |
+
+
 **Runtime Link**: TBD
 
 ## Sprint 1 Week 2
