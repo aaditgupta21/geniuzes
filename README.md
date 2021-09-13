@@ -40,7 +40,10 @@ Requirements | Evidence |
 Font | [Inter](https://fonts.google.com/specimen/Inter?query=Inter) |
 Style | Minimalistic |
 Color | Shades of blue |
-h | h |
+Rohan | h |
+Rohit | h |
+Adi | h |
+Aadit | h |
 Review binary | Binary Numbers: What binary numbers are and how they are used. All the media that we see in modern devices are made from millions of simple on/off switches *full notes found in journal*|
 
 
