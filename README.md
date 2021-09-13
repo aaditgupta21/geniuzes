@@ -49,7 +49,3 @@ Review binary | Binary Numbers: What binary numbers are and how they are used. A
 
 
 ## Sprint 4 Week 3
-
-
-## Sprint 5
-
