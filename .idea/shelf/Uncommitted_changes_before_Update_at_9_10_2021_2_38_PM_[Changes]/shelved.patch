@@ -1,0 +1,248 @@
+Index: templates/layouts/navbar.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!-- Navigation Bar from bootstrap\r\nThis HTML is setup as a fragment allowing it to be \"included\" by other HTML files via Jinja2\r\n-->\r\n<nav class=\"navbar navbar-expand-lg navbar-light bg-light\">\r\n    <a class=\"navbar-brand\" href=\"https://csp.nighthawkcodingsociety.com/\">{{basename}}</a>\r\n    <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarNavAltMarkup\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\r\n        <span class=\"navbar-toggler-icon\"></span>\r\n    </button>\r\n    <div class=\"collapse navbar-collapse\" id=\"navbarNavAltMarkup\">\r\n        <div class=\"navbar-nav\">\r\n            <!-- url_for is a Jinja2 pre-processor that finds route from function name (def) -->\r\n           <a class=\"nav-link\" href={{ url_for('index') }}>Portfolio</a>\r\n            <a class=\"nav-link\" href={{ url_for('kangaroos') }}>Kangaroos</a>\r\n            <a class=\"nav-link\" href={{ url_for('walruses') }}>Walruses</a>\r\n            <a class=\"nav-link\" href={{ url_for('hawkers') }}>Hawkers</a>\r\n            <a class=\"nav-link\" href={{ url_for('aadit') }}>Aadit Gupta</a>\r\n            <a class=\"nav-link\" href={{ url_for('adi') }}>Adi Khandelwal</a>\r\n            <a class=\"nav-link\" href={{ url_for('rohan') }}>Rohan Gaikwad</a>\r\n            <a class=\"nav-link\" href={{ url_for('rohit') }}>Rohit De</a>\r\n            <!-- stub is shown using the name of the route -->\r\n            <a class=\"nav-link\" href=\"/stub\">Stub</a>\r\n        </div>\r\n    </div>\r\n</nav>\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/templates/layouts/navbar.html b/templates/layouts/navbar.html
+--- a/templates/layouts/navbar.html	(revision 781997764352b8fdfcbb855d04b8bba99fff3a5a)
++++ b/templates/layouts/navbar.html	(date 1631224310549)
+@@ -17,6 +17,7 @@
+             <a class="nav-link" href={{ url_for('adi') }}>Adi Khandelwal</a>
+             <a class="nav-link" href={{ url_for('rohan') }}>Rohan Gaikwad</a>
+             <a class="nav-link" href={{ url_for('rohit') }}>Rohit De</a>
++            <a class="nav-link" href={{ url_for('binary') }}>Binary</a>
+             <!-- stub is shown using the name of the route -->
+             <a class="nav-link" href="/stub">Stub</a>
+         </div>
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"6f5dd313-25b5-4176-ae7f-b826f1c9a578\" name=\"Changes\" comment=\"general kenobi added\">\r\n      <change beforePath=\"$PROJECT_DIR$/templates/layouts/navbar.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/templates/layouts/navbar.html\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/templates/rohit.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/templates/rohit.html\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"HTML File\" />\r\n        <option value=\"JavaScript File\" />\r\n        <option value=\"Python Script\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitSEFilterConfiguration\">\r\n    <file-type-list>\r\n      <filtered-out-file-type name=\"LOCAL_BRANCH\" />\r\n      <filtered-out-file-type name=\"REMOTE_BRANCH\" />\r\n      <filtered-out-file-type name=\"TAG\" />\r\n      <filtered-out-file-type name=\"COMMIT_BY_MESSAGE\" />\r\n    </file-type-list>\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"1xTmU9ngcdtbZN5VOIlNWFAIDgA\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"DefaultHtmlFileTemplate\" value=\"HTML File\" />\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\r\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\r\n    <property name=\"last_opened_file_path\" value=\"$USER_HOME$/Pictures/Camera Roll\" />\r\n    <property name=\"nodejs_package_manager_path\" value=\"npm\" />\r\n    <property name=\"project.structure.last.edited\" value=\"Project\" />\r\n    <property name=\"project.structure.proportion\" value=\"0.0\" />\r\n    <property name=\"project.structure.side.proportion\" value=\"0.0\" />\r\n    <property name=\"settings.editor.selected.configurable\" value=\"preferences.pluginManager\" />\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"Python.main\">\r\n    <configuration name=\"main\" type=\"PythonConfigurationType\" factoryName=\"Python\" nameIsGenerated=\"true\">\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"C:\\Users\\deroh\\AppData\\Local\\Programs\\Python\\Python39\\python.exe\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"false\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <module name=\"\" />\r\n      <EXTENSION ID=\"PythonCoverageRunConfigurationExtension\" runner=\"coverage.py\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/main.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration default=\"true\" type=\"Python.FlaskServer\">\r\n      <module name=\"flask_portfolio_aadit\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"false\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <EXTENSION ID=\"PythonCoverageRunConfigurationExtension\" runner=\"coverage.py\" />\r\n      <option name=\"launchJavascriptDebuger\" value=\"false\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"flask_portfolio_aadit\" type=\"Python.FlaskServer\">\r\n      <module name=\"flask_portfolio_aadit\" />\r\n      <option name=\"target\" value=\"$PROJECT_DIR$/main.py\" />\r\n      <option name=\"targetType\" value=\"PATH\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"false\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <EXTENSION ID=\"PythonCoverageRunConfigurationExtension\" runner=\"coverage.py\" />\r\n      <option name=\"launchJavascriptDebuger\" value=\"false\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"6f5dd313-25b5-4176-ae7f-b826f1c9a578\" name=\"Changes\" comment=\"\" />\r\n      <created>1630387466300</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1630387466300</updated>\r\n      <workItem from=\"1630387468077\" duration=\"1272000\" />\r\n      <workItem from=\"1630388754247\" duration=\"1205000\" />\r\n      <workItem from=\"1630393530166\" duration=\"20000\" />\r\n      <workItem from=\"1630444806898\" duration=\"871000\" />\r\n      <workItem from=\"1630529733828\" duration=\"3727000\" />\r\n      <workItem from=\"1630537014428\" duration=\"97000\" />\r\n      <workItem from=\"1630537920839\" duration=\"552000\" />\r\n      <workItem from=\"1630616088241\" duration=\"1796000\" />\r\n      <workItem from=\"1630633538227\" duration=\"42000\" />\r\n      <workItem from=\"1630704261208\" duration=\"678000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"add rohit greet page\">\r\n      <created>1630389716548</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1630389716548</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"font size changes\">\r\n      <created>1630616418125</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1630616418125</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"general kenobi added\">\r\n      <created>1630617699962</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1630617699962</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"4\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"add rohit greet page\" />\r\n    <MESSAGE value=\"font size changes\" />\r\n    <MESSAGE value=\"general kenobi added\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"general kenobi added\" />\r\n  </component>\r\n  <component name=\"XSLT-Support.FileAssociations.UIState\">\r\n    <expand />\r\n    <select />\r\n  </component>\r\n  <component name=\"com.intellij.coverage.CoverageDataManagerImpl\">\r\n    <SUITE FILE_PATH=\"coverage/flask_portfolio_aadit$main.coverage\" NAME=\"main Coverage Results\" MODIFIED=\"1630704555091\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$\" />\r\n    <SUITE FILE_PATH=\"coverage/flask_portfolio_aadit$flask_portfolio_aadit.coverage\" NAME=\"flask_portfolio_aadit Coverage Results\" MODIFIED=\"1630388765774\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 781997764352b8fdfcbb855d04b8bba99fff3a5a)
++++ b/.idea/workspace.xml	(date 1631309906588)
+@@ -1,9 +1,9 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="ChangeListManager">
+-    <list default="true" id="6f5dd313-25b5-4176-ae7f-b826f1c9a578" name="Changes" comment="general kenobi added">
++    <list default="true" id="23f8de38-848f-40f0-9730-536418708587" name="Changes" comment="add rohan vanta">
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/templates/layouts/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/layouts/navbar.html" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/templates/rohit.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/rohit.html" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -14,23 +14,14 @@
+     <option name="RECENT_TEMPLATES">
+       <list>
+         <option value="HTML File" />
+-        <option value="JavaScript File" />
+-        <option value="Python Script" />
+       </list>
+     </option>
+   </component>
+   <component name="Git.Settings">
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+-  </component>
+-  <component name="GitSEFilterConfiguration">
+-    <file-type-list>
+-      <filtered-out-file-type name="LOCAL_BRANCH" />
+-      <filtered-out-file-type name="REMOTE_BRANCH" />
+-      <filtered-out-file-type name="TAG" />
+-      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+-    </file-type-list>
++    <option name="RESET_MODE" value="MIXED" />
+   </component>
+-  <component name="ProjectId" id="1xTmU9ngcdtbZN5VOIlNWFAIDgA" />
++  <component name="ProjectId" id="1xSrmoEWhLphnaF2v7RKJsVqQWW" />
+   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+   <component name="ProjectViewState">
+     <option name="hideEmptyMiddlePackages" value="true" />
+@@ -41,21 +32,15 @@
+     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+     <property name="WebServerToolWindowFactoryState" value="false" />
+-    <property name="last_opened_file_path" value="$USER_HOME$/Pictures/Camera Roll" />
+-    <property name="nodejs_package_manager_path" value="npm" />
+-    <property name="project.structure.last.edited" value="Project" />
+-    <property name="project.structure.proportion" value="0.0" />
+-    <property name="project.structure.side.proportion" value="0.0" />
+-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+   </component>
+-  <component name="RunManager" selected="Python.main">
+-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
++  <component name="RunManager">
++    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+       <option name="INTERPRETER_OPTIONS" value="" />
+       <option name="PARENT_ENVS" value="true" />
+       <envs>
+         <env name="PYTHONUNBUFFERED" value="1" />
+       </envs>
+-      <option name="SDK_HOME" value="C:\Users\deroh\AppData\Local\Programs\Python\Python39\python.exe" />
++      <option name="SDK_HOME" value="C:\Users\gaikw_lehdr31\AppData\Local\Programs\Python\Python39\python.exe" />
+       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+       <option name="IS_MODULE_SDK" value="false" />
+       <option name="ADD_CONTENT_ROOTS" value="true" />
+@@ -71,76 +56,61 @@
+       <option name="INPUT_FILE" value="" />
+       <method v="2" />
+     </configuration>
+-    <configuration default="true" type="Python.FlaskServer">
+-      <module name="flask_portfolio_aadit" />
+-      <option name="INTERPRETER_OPTIONS" value="" />
+-      <option name="PARENT_ENVS" value="true" />
+-      <option name="SDK_HOME" value="" />
+-      <option name="WORKING_DIRECTORY" value="" />
+-      <option name="IS_MODULE_SDK" value="false" />
+-      <option name="ADD_CONTENT_ROOTS" value="true" />
+-      <option name="ADD_SOURCE_ROOTS" value="true" />
+-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+-      <option name="launchJavascriptDebuger" value="false" />
+-      <method v="2" />
+-    </configuration>
+-    <configuration name="flask_portfolio_aadit" type="Python.FlaskServer">
+-      <module name="flask_portfolio_aadit" />
+-      <option name="target" value="$PROJECT_DIR$/main.py" />
+-      <option name="targetType" value="PATH" />
+-      <option name="INTERPRETER_OPTIONS" value="" />
+-      <option name="PARENT_ENVS" value="true" />
+-      <option name="SDK_HOME" value="" />
+-      <option name="WORKING_DIRECTORY" value="" />
+-      <option name="IS_MODULE_SDK" value="false" />
+-      <option name="ADD_CONTENT_ROOTS" value="true" />
+-      <option name="ADD_SOURCE_ROOTS" value="true" />
+-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+-      <option name="launchJavascriptDebuger" value="false" />
+-      <method v="2" />
+-    </configuration>
++    <recent_temporary>
++      <list>
++        <item itemvalue="Python.main" />
++      </list>
++    </recent_temporary>
+   </component>
+   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+   <component name="TaskManager">
+     <task active="true" id="Default" summary="Default task">
+-      <changelist id="6f5dd313-25b5-4176-ae7f-b826f1c9a578" name="Changes" comment="" />
+-      <created>1630387466300</created>
++      <changelist id="23f8de38-848f-40f0-9730-536418708587" name="Changes" comment="" />
++      <created>1630359492702</created>
+       <option name="number" value="Default" />
+       <option name="presentableId" value="Default" />
+-      <updated>1630387466300</updated>
+-      <workItem from="1630387468077" duration="1272000" />
+-      <workItem from="1630388754247" duration="1205000" />
+-      <workItem from="1630393530166" duration="20000" />
+-      <workItem from="1630444806898" duration="871000" />
+-      <workItem from="1630529733828" duration="3727000" />
+-      <workItem from="1630537014428" duration="97000" />
+-      <workItem from="1630537920839" duration="552000" />
+-      <workItem from="1630616088241" duration="1796000" />
+-      <workItem from="1630633538227" duration="42000" />
+-      <workItem from="1630704261208" duration="678000" />
++      <updated>1630359492702</updated>
++      <workItem from="1630359494097" duration="3736000" />
++      <workItem from="1630530466177" duration="1418000" />
++      <workItem from="1630533188249" duration="136000" />
++      <workItem from="1630616425856" duration="3133000" />
++      <workItem from="1630702876801" duration="10000" />
++      <workItem from="1630704530525" duration="468000" />
++      <workItem from="1630705258276" duration="1345000" />
++      <workItem from="1630707442899" duration="928000" />
++      <workItem from="1631050245606" duration="1262000" />
++      <workItem from="1631220859499" duration="2872000" />
++      <workItem from="1631309381322" duration="516000" />
+     </task>
+-    <task id="LOCAL-00001" summary="add rohit greet page">
+-      <created>1630389716548</created>
++    <task id="LOCAL-00001" summary="add rohan page">
++      <created>1630530619217</created>
+       <option name="number" value="00001" />
+       <option name="presentableId" value="LOCAL-00001" />
+       <option name="project" value="LOCAL" />
+-      <updated>1630389716548</updated>
++      <updated>1630530619217</updated>
+     </task>
+-    <task id="LOCAL-00002" summary="font size changes">
+-      <created>1630616418125</created>
++    <task id="LOCAL-00002" summary="add rohan page">
++      <created>1630531560486</created>
+       <option name="number" value="00002" />
+       <option name="presentableId" value="LOCAL-00002" />
+       <option name="project" value="LOCAL" />
+-      <updated>1630616418125</updated>
++      <updated>1630531560486</updated>
+     </task>
+-    <task id="LOCAL-00003" summary="general kenobi added">
+-      <created>1630617699962</created>
++    <task id="LOCAL-00003" summary="add rohan page">
++      <created>1630618010056</created>
+       <option name="number" value="00003" />
+       <option name="presentableId" value="LOCAL-00003" />
+       <option name="project" value="LOCAL" />
+-      <updated>1630617699962</updated>
++      <updated>1630618010056</updated>
++    </task>
++    <task id="LOCAL-00004" summary="add rohan vanta">
++      <created>1630707513065</created>
++      <option name="number" value="00004" />
++      <option name="presentableId" value="LOCAL-00004" />
++      <option name="project" value="LOCAL" />
++      <updated>1630707513065</updated>
+     </task>
+-    <option name="localTasksCounter" value="4" />
++    <option name="localTasksCounter" value="5" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -151,7 +121,19 @@
+       <map>
+         <entry key="MAIN">
+           <value>
+-            <State />
++            <State>
++              <option name="FILTERS">
++                <map>
++                  <entry key="branch">
++                    <value>
++                      <list>
++                        <option value="origin/main" />
++                      </list>
++                    </value>
++                  </entry>
++                </map>
++              </option>
++            </State>
+           </value>
+         </entry>
+       </map>
+@@ -159,17 +141,11 @@
+     <option name="oldMeFiltersMigrated" value="true" />
+   </component>
+   <component name="VcsManagerConfiguration">
+-    <MESSAGE value="add rohit greet page" />
+-    <MESSAGE value="font size changes" />
+-    <MESSAGE value="general kenobi added" />
+-    <option name="LAST_COMMIT_MESSAGE" value="general kenobi added" />
+-  </component>
+-  <component name="XSLT-Support.FileAssociations.UIState">
+-    <expand />
+-    <select />
++    <MESSAGE value="add rohan page" />
++    <MESSAGE value="add rohan vanta" />
++    <option name="LAST_COMMIT_MESSAGE" value="add rohan vanta" />
+   </component>
+   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+-    <SUITE FILE_PATH="coverage/flask_portfolio_aadit$main.coverage" NAME="main Coverage Results" MODIFIED="1630704555091" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+-    <SUITE FILE_PATH="coverage/flask_portfolio_aadit$flask_portfolio_aadit.coverage" NAME="flask_portfolio_aadit Coverage Results" MODIFIED="1630388765774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
++    <SUITE FILE_PATH="coverage/flask_portfolio_aadit$main.coverage" NAME="main Coverage Results" MODIFIED="1631309645224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+   </component>
+ </project>
+\ No newline at end of file
