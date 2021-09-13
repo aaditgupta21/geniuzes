@@ -37,7 +37,7 @@ Developers. Integration of Video Journal 0 into a mini-lab page | h |
 
 Requirements | Evidence |
 ----------- | ----------- |
-h | h |
+Font | [Inter](https://fonts.google.com/specimen/Inter?query=Inter) |
 h | h |
 h | h |
 h | h |
