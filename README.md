@@ -1,4 +1,18 @@
-## Project Credits
+Table of contents
+=================
+
+<!--ts-->
+   * [Project Credits](Project_Credits)
+   * [Runtime Link](Runtime_Link)
+   * [Sprint 2 Week 2](Sprint_2_Week_2)
+   * [Sprint 3 Week 3](Sprint_3_Week_3)
+
+Sprint_3_Week_3
+<!--te-->
+
+
+Project_Credits
+=================
 
 - [Team Scrum Board](https://github.com/aaditgupta21/flask_portfolio/projects/1)
 - [Team Insight Graphs](https://github.com/aaditgupta21/flask_portfolio/graphs/contributors)
@@ -15,12 +29,11 @@ Rohan Gaikwad | [@rohang326](https://github.com/rohang326) | [Tasks](https://git
 
 
 
-**Runtime Link**: TBD
+Runtime_Link: TBD
+=================
 
-## Sprint 1 Week 2
-
-
-## Sprint 2 Week 2
+Sprint_2_Week_2
+=================
 
 Requirements | Evidence |
 ----------- | ----------- |
@@ -33,7 +46,8 @@ Developers. Integration of Greet like functionality into a mini-lab page | Added
 Developers. Integration of Video Journal 0 into a mini-lab page | [Video Journal 0 embedded into portfolio ](https://www.youtube.com/playlist?list=PLT0pUL77e5RFi8ZPMgJNCi7Gp_5K-BZ0K) ![image](https://user-images.githubusercontent.com/44128572/133027005-909838fb-7c2e-4afa-8932-e0ac62d0d34c.png)|
 
 
-## Sprint 3 Week 3
+Sprint_3_Week_3
+=================
 
 Requirements | Evidence |
 ----------- | ----------- |
@@ -49,3 +63,4 @@ Review binary | Binary Numbers: What binary numbers are and how they are used. A
 
 
 ## Sprint 4 Week 3
+=================
