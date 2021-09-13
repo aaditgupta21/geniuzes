@@ -42,7 +42,16 @@ Style | Minimalistic |
 Color | Shades of blue |
 h | h |
 h | h |
-Review binary |  |
+Review binary | Binary Numbers
+What binary numbers are and how they are used
+All the media that we see in modern devices are made from millions of simple on/off switches
+1. Prefix “dec” means 10
+2. Biplane, binoculars, bicycle all have in common the prefix “bi”=2. Binary system uses only 2 numbers
+3. Symbol on most power switches is a symbol with both 1 and 0
+
+Bit is either a 1 or 0(on or off)
+Digits 1 and 0 in binary represent the electrical signal being on and off
+ |
 
 
 ## Sprint 4 Week 3
