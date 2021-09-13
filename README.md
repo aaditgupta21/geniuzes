@@ -2,7 +2,7 @@ Table of contents
 =================
 
 <!--ts-->
-   * [Project Credits](Project_Credits)
+   * [Project Credits](Credit)
    * [Runtime Link](Runtime_Link)
    * [Sprint 2 Week 2](Sprint_2_Week_2)
    * [Sprint 3 Week 3](Sprint_3_Week_3)
@@ -11,7 +11,7 @@ Sprint_3_Week_3
 <!--te-->
 
 
-Project_Credits
+Credits
 =================
 
 - [Team Scrum Board](https://github.com/aaditgupta21/flask_portfolio/projects/1)
