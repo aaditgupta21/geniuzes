@@ -37,7 +37,7 @@ Developers. Integration of Video Journal 0 into a mini-lab page | [Video Journal
 
 Requirements | Evidence |
 ----------- | ----------- |
-Font | [Inter](https://fonts.google.com/specimen/Inter?query=Inter) |
+Font | [Inter](https://fonts.google.com/specimen/Inter?query=Inter); not implemented currently |
 Style | Minimalistic |
 Color | Shades of blue; not implemented currently |
 Rohan | ![image](https://user-images.githubusercontent.com/44128572/133026018-e38b0b47-f41d-4ad3-9547-46ceabf3042f.png) |
