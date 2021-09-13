@@ -26,7 +26,7 @@ Requirements | Evidence |
 ----------- | ----------- |
 Scrum Master. Define tasks and place assignments to in-progress on the Scrum board.  | [Scrum Board](https://github.com/aaditgupta21/flask_portfolio/projects/1) |
 Designer. Wire Frame (at least three theme pages, team mini-labs, and about) | [Wireframe](https://docs.google.com/document/d/13JMjVt1LlVg1cZFgbcL_K0h7GkAvD9NJkFDNzeb8OTk/edit?usp=sharing) |
-Technical Lead. Coordinate brain write session, after preliminary wire frames, make sure you capture technical complexities as an output of this exercise (input, saving data, comments, visual actions, animations, ...) | h |
+Technical Lead. Coordinate brain write session, after preliminary wire frames, make sure you capture technical complexities as an output of this exercise (input, saving data, comments, visual actions, animations, ...) | Idea is tutoring website: forum board, joining classes, log in page for students |
 Navigators. Capture or build highlight of Ideation in README.md, this allows ideas to persist with Project,  Make sure that work from Developers works to expectations (testing, suggestions for improvement) | h |
 Developers. Bootstrap drop downs in navbar, start to form Wire Frame menu options.  Each menu option should have a Stub code page | h |
 Developers. Integration of Greet like functionality into a mini-lab page | h |
