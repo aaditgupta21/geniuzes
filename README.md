@@ -38,11 +38,11 @@ Developers. Integration of Video Journal 0 into a mini-lab page | h |
 Requirements | Evidence |
 ----------- | ----------- |
 Font | [Inter](https://fonts.google.com/specimen/Inter?query=Inter) |
+Style | Minimalistic |
+Color | Shades of blue |
 h | h |
 h | h |
-h | h |
-h | h |
-h | h |
+Review binary |  |
 
 
 ## Sprint 4 Week 3
