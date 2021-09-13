@@ -40,7 +40,7 @@ Requirements | Evidence |
 Font | [Inter](https://fonts.google.com/specimen/Inter?query=Inter); not implemented currently |
 Style | Minimalistic |
 Color | Shades of blue; not implemented currently |
-Rohan | ![image](https://user-images.githubusercontent.com/44128572/133026018-e38b0b47-f41d-4ad3-9547-46ceabf3042f.png) |
+Rohan | ![image](https://user-images.githubusercontent.com/89225438/133149631-ec8e6135-209c-44ce-8c43-4d8ded4ebd0d.png) |
 Rohit | ![image](https://user-images.githubusercontent.com/44128572/133026053-b46f4cfe-3020-4d26-b488-3a8b1b91dd48.png) |
 Adi | ![image](https://user-images.githubusercontent.com/44128572/133026040-e04009a9-6d38-42e8-a449-fc52529830b6.png) |
 Aadit | ![image](https://user-images.githubusercontent.com/44128572/133026029-da9c8065-7140-4374-b3ee-30bb26add09a.png) |
