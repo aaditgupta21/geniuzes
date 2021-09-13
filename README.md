@@ -6,8 +6,6 @@ Table of contents
    * [Runtime Link](#runtime_link)
    * [Sprint 2 Week 2](#sprint_2_week_2)
    * [Sprint 3 Week 3](#sprint_3_week_3)
-
-Sprint_3_Week_3
 <!--te-->
 
 
