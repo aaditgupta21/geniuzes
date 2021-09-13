@@ -24,12 +24,13 @@ Rohan Gaikwad | [@rohang326](https://github.com/rohang326) | [Tasks](https://git
 
 Requirements | Evidence |
 ----------- | ----------- |
-h | h |
-h | h |
-h | h |
-h | h |
-h | h |
-h | h |
+Scrum Master. Define tasks and place assignments to in-progress on the Scrum board.  | h |
+Designer. Wire Frame (at least three theme pages, team mini-labs, and about) | h |
+Technical Lead. Coordinate brain write session, after preliminary wire frames, make sure you capture technical complexities as an output of this exercise (input, saving data, comments, visual actions, animations, ...) | h |
+Navigators. Capture or build highlight of Ideation in README.md, this allows ideas to persist with Project,  Make sure that work from Developers works to expectations (testing, suggestions for improvement) | h |
+Developers. Bootstrap drop downs in navbar, start to form Wire Frame menu options.  Each menu option should have a Stub code page | h |
+Developers. Integration of Greet like functionality into a mini-lab page | h |
+Developers. Integration of Video Journal 0 into a mini-lab page | h |
 
 
 ## Sprint 3 Week 3
