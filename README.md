@@ -38,11 +38,11 @@ Developers. Integration of Video Journal 0 into a mini-lab page | h |
 Requirements | Evidence |
 ----------- | ----------- |
 Font | [Inter](https://fonts.google.com/specimen/Inter?query=Inter) |
+Style | Minimalistic |
+Color | Shades of blue |
 h | h |
-h | h |
-h | h |
-h | h |
-h | h |
+Review binary | Binary Numbers: What binary numbers are and how they are used. All the media that we see in modern devices are made from millions of simple on/off switches *full notes found in journal*|
+
 
 
 ## Sprint 4 Week 3
