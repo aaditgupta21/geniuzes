@@ -2,17 +2,17 @@ Table of contents
 =================
 
 <!--ts-->
-   * [Project Credits](Credit)
-   * [Runtime Link](Runtime_Link)
-   * [Sprint 2 Week 2](Sprint_2_Week_2)
-   * [Sprint 3 Week 3](Sprint_3_Week_3)
+   * [Credits](#credits)
+   * [Runtime Link](#runtime_link)
+   * [Sprint 2 Week 2](#sprint_2_week_2)
+   * [Sprint 3 Week 3](#sprint_3_week_3)
 
 Sprint_3_Week_3
 <!--te-->
 
 
 Credits
-=================
+============
 
 - [Team Scrum Board](https://github.com/aaditgupta21/flask_portfolio/projects/1)
 - [Team Insight Graphs](https://github.com/aaditgupta21/flask_portfolio/graphs/contributors)
@@ -29,11 +29,14 @@ Rohan Gaikwad | [@rohang326](https://github.com/rohang326) | [Tasks](https://git
 
 
 
-Runtime_Link: TBD
-=================
+Runtime_Link
+============
+
+To be determined!
 
 Sprint_2_Week_2
-=================
+============
+
 
 Requirements | Evidence |
 ----------- | ----------- |
@@ -47,7 +50,7 @@ Developers. Integration of Video Journal 0 into a mini-lab page | [Video Journal
 
 
 Sprint_3_Week_3
-=================
+============
 
 Requirements | Evidence |
 ----------- | ----------- |
@@ -59,8 +62,3 @@ Rohit | ![image](https://user-images.githubusercontent.com/44128572/133026053-b4
 Adi | ![image](https://user-images.githubusercontent.com/44128572/133026040-e04009a9-6d38-42e8-a449-fc52529830b6.png) |
 Aadit | ![image](https://user-images.githubusercontent.com/44128572/133026029-da9c8065-7140-4374-b3ee-30bb26add09a.png) |
 Review binary | Binary Numbers: What binary numbers are and how they are used. All the media that we see in modern devices are made from millions of simple on/off switches *full notes found in journal*|
-
-
-
-## Sprint 4 Week 3
-=================
