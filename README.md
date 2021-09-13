@@ -1,7 +1,6 @@
 ## Project Credits
 
 - [Team Scrum Board](https://github.com/aaditgupta21/flask_portfolio/projects/1)
-- [All Team Commits](https://github.com/aaditgupta21/flask_portfolio/commits/master)
 - [Team Insight Graphs](https://github.com/aaditgupta21/flask_portfolio/graphs/contributors)
 
 
