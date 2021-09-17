@@ -76,9 +76,9 @@ def binary():
             return render_template("binary.html", bits=int(bits))
     return render_template("binary.html", bits=8)
 
-@app.route('/minilab/')
-def minilab():
-    return render_template("minilab.html")
+@app.route('/week0journal/')
+def week0journal():
+    return render_template("week0journal.html")
 
 
 # runs the application on the development server

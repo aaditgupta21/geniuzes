@@ -1,0 +1,20 @@
+{% extends "layouts/base.html" %}
+
+<!- This variable sets name of browser tab  -->
+{% set project = "week0journal" %}
+
+<!- This is a replacement block for Body in base.html -->
+{% block body %}
+<p style="text-align: center; font-size: 60px; font-weight: 600;">week0journal<br> Home Page</p>
+<div class="center-block" style="margin: 2% 5% 5%; text-align:center; font-family: gilroy,serif;">
+    <p align="center" style="font-size: 30px;">Video Journal 0 Playlist</p>
+    <p align="center">
+        <iframe width="1000" height="700" src="https://www.youtube.com/embed/videoseries?list=PLT0pUL77e5RFi8ZPMgJNCi7Gp_5K-BZ0K" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </p>
+</div>
+{% endblock %}
+
+<!- This is turning off birds background from base.html -->
+{% block background %}
+
+{% endblock %}
