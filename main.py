@@ -68,17 +68,13 @@ def rohan():
             return render_template("rohan.html", name1=name)
     return render_template("rohan.html", name1="homie")
 
-@app.route('/rohanbinary', methods=['GET', 'POST'])
-def rohanbinary():
-    if request.form:
-        name = request.form.get("name")
-        if len(name) != 0:
-            return render_template("rohanbinary.html", bit_amount_r=name)
-    return render_template("rohanbinary.html", bit_amount_r="")
-
-@app.route('/binary/')
+@app.route('/binary',methods=['GET', 'POST'])
 def binary():
-    return render_template("binary.html")
+    if request.form:
+        bits = request.form.get("bits")
+        if int(bits) >= 8:
+            return render_template("binary.html", bits=int(bits))
+    return render_template("binary.html", bits=8)
 
 @app.route('/minilab/')
 def minilab():
