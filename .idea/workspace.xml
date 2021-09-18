@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="23f8de38-848f-40f0-9730-536418708587" name="Changes" comment="navbar font">
+    <list default="true" id="23f8de38-848f-40f0-9730-536418708587" name="Changes" comment="use inter font">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/layouts/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/layouts/navbar.html" afterDir="false" />
     </list>
@@ -85,7 +85,7 @@
       <workItem from="1631560103383" duration="51000" />
       <workItem from="1631563357670" duration="540000" />
       <workItem from="1631741173327" duration="1423000" />
-      <workItem from="1631915221721" duration="9534000" />
+      <workItem from="1631915221721" duration="10057000" />
     </task>
     <task id="LOCAL-00001" summary="add rohan page">
       <created>1630530619217</created>
@@ -157,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631992736649</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="use inter font">
+      <created>1631992950964</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1631992950964</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,10 +203,11 @@
     <MESSAGE value="coral background update" />
     <MESSAGE value="navbar spacing fixed" />
     <MESSAGE value="navbar font" />
-    <option name="LAST_COMMIT_MESSAGE" value="navbar font" />
+    <MESSAGE value="use inter font" />
+    <option name="LAST_COMMIT_MESSAGE" value="use inter font" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/flask_portfolio$main.coverage" NAME="main Coverage Results" MODIFIED="1631991515154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/flask_portfolio$main.coverage" NAME="main Coverage Results" MODIFIED="1631993436053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/flask_portfolio_aadit$main.coverage" NAME="main Coverage Results" MODIFIED="1631742497975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
