@@ -1,5 +1,6 @@
 # import "packages" from flask
 from flask import Flask, render_template,request
+from algorithm.image import image_data
 
 # create a Flask instance
 app = Flask(__name__)
@@ -79,6 +80,10 @@ def binary():
 @app.route('/week0journal/')
 def week0journal():
     return render_template("week0journal.html")
+
+@app.route('/rgb/')
+def rgb():
+    return render_template("rgb.html", images=image_data())
 
 
 # runs the application on the development server
