@@ -7,10 +7,10 @@ This HTML is setup as as a Jinja2 layout, coders use layouts for:
 <!DOCTYPE HTML>
 <html lang="en">
 
-{% set basename = "Nighthawk Coding" %}
-{% set github = "https://github.com/nighthawkcoders" %}
-{% set twitter = "https://twitter.com/NighthawkCoding" %}
-{% set youtube = "https://www.youtube.com/channel/UClIKOsDS5dsfzFA3zveDT3Q?view_as=subscriber" %}
+{% set basename = "Purple" %}
+{% set github = "https://github.com/aaditgupta21/flask_portfolio" %}
+<!--{% set twitter = "https://twitter.com/NighthawkCoding" %}-->
+<!--{% set youtube = "https://www.youtube.com/channel/UClIKOsDS5dsfzFA3zveDT3Q?view_as=subscriber" %}-->
 
 <head>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -21,6 +21,12 @@ This HTML is setup as as a Jinja2 layout, coders use layouts for:
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
         :root{
+            --yellow: #f1d483;
+            --green: #9daf9b;
+            --purple: #a59aaf;
+            --lblue: #6084a3;
+            --dblue: #2b425b;
+            --gray: #363d47;
             --white: whitesmoke;
             --black: black;
             --grey: grey;
@@ -33,8 +39,8 @@ This HTML is setup as as a Jinja2 layout, coders use layouts for:
             -moz-animation: fadein 2s; /* Firefox */
             -webkit-animation: fadein 2s; /* Safari and Chrome */
             -o-animation: fadein 2s; /* Opera */
-            background-color: var(--grey);
-            color: var(--white);
+            background-color: var(--white);
+            color: var(--black);
         }
 
         .dark-mode {
@@ -99,8 +105,10 @@ This HTML is setup as as a Jinja2 layout, coders use layouts for:
         .row{
             margin: auto;
         }
-        .navbar {
-            z-index: 1100;
+
+        .navbar-custom .navbar-brand,
+        .navbar-custom .navbar-text {
+            color: var(--lblue);
         }
 
     </style>
@@ -119,9 +127,6 @@ This HTML is setup as as a Jinja2 layout, coders use layouts for:
             {% block info %}
                 <!-- notice jinja style variables used in href's -->
                 <a><h5>{{basename}}</h5></a>
-                <a href={{github}} target="_blank"><i class="fa fa-github"></i></a>
-                <a href={{youtube}} target="_blank"><i class="fa fa-youtube-play"></i></a>
-                <a href={{twitter}} target="_blank"><i class="fa fa-twitter"></i></a>
             {% endblock %}
         </div>
     </div>
