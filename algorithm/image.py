@@ -21,6 +21,8 @@ def image_data(path="static/img/", img_list=None):  # path of static images is d
     if img_list is None:  # color_dict is defined with defaults
         img_list = [
             {'source': "Dog", 'label': "Funny Dog", 'file': "dog.jpg"},
+            {'source': "Lamborghini", 'label': "Cool Photo of Lambo", 'file': "lambo.jpg"},
+
         ]
     # gather analysis data and meta data for each image, adding attributes to each row in table
     for img_dict in img_list:
