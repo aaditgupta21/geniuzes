@@ -23,6 +23,14 @@
                 imageType = 0;
             }
         }
+        let rot = 0;
+        function imgrotate() {
+            rot += 90;
+            if (rot === 360) {
+                rot = 0;
+            }
+            document.querySelector("img").style.transform = `rotate(${rot}deg)`;
+        }
 
         function setImg(img, base64) {
             // add button and rotate image from original to gray and back (toggle)
@@ -40,6 +48,7 @@
 {% block content %}
     <h1 style="color: cornflowerblue" class="text-center">RGB values within an Image</h1>
     <div class="container">
+        <button onClick="imgrotate()">Rotate Image</button>
         <button onclick="toggle()">Toggle Colors!</button>
         <div class="row justify-content-md-center">
             <table class="table">
