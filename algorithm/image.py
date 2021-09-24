@@ -22,6 +22,7 @@ def image_data(path="static/img/", img_list=None):  # path of static images is d
         img_list = [
             {'source': "Dog", 'label': "Funny Dog", 'file': "dog.jpg"},
             {'source': "Lamborghini", 'label': "Cool Photo of Lambo", 'file': "lambo.jpg"},
+            {'source': "Adi", 'label': "A Weird Panarama", 'file': "weirdpano.png"},
 
         ]
     # gather analysis data and meta data for each image, adding attributes to each row in table
