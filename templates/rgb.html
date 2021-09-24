@@ -2,6 +2,13 @@
 {% extends "layouts/layout.html" %}
 
 {% block meta %}
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        img:hover {
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+        }
+    </style>
 
     <script>
         var color = {{ colored|safe }}
@@ -43,6 +50,8 @@
     //  document.getElementID("img_gray<n>").innerHTML
     //  help: https://www.geeksforgeeks.org/how-to-change-the-src-attribute-of-an-img-element-in-javascript-jquery/
     </script>
+
+
 
     <title>RGB starter</title>
 {% endblock %}
