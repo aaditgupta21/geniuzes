@@ -32,6 +32,14 @@ Runtime_Link
 
 To be determined!
 
+Sprint-5-Week-5
+=================
+Assignee | Requirements | Evidence |
+-------- | ----------- | ----------| 
+Aadit | backend/frontend RGB |[link](https://github.com/aaditgupta21/flask_portfolio/commit/327b42f74a5bee36d4eb3e0627f2d12ad142e7f6) | 
+Adi  | fix file not found error | Trial/Error |
+Rohit | Work on HomePage | [link](https://github.com/aaditgupta21/flask_portfolio/commit/2fc0db57bf02b81e34682dff2496cfece08cfc86) |
+
 Sprint_2_Week_2
 ============
 
