@@ -14,24 +14,24 @@ def index():
 
 
 # connects /kangaroos path to render kangaroos.html
-@app.route('/kangaroos/')
-def kangaroos():
-    return render_template("kangaroos.html")
+# @app.route('/kangaroos/')
+# def kangaroos():
+#     return render_template("kangaroos.html")
+#
+#
+# @app.route('/walruses/')
+# def walruses():
+#     return render_template("walruses.html")
 
 
-@app.route('/walruses/')
-def walruses():
-    return render_template("walruses.html")
+# @app.route('/hawkers/')
+# def hawkers():
+#     return render_template("hawkers.html")
 
 
-@app.route('/hawkers/')
-def hawkers():
-    return render_template("hawkers.html")
-
-
-@app.route('/stub/')
-def stub():
-    return render_template("stub.html")
+# @app.route('/stub/')
+# def stub():
+#     return render_template("stub.html")
 
 
 @app.route('/aadit', methods=['GET', 'POST'])

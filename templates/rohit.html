@@ -11,30 +11,6 @@
   Home Page
 </p>
 
-<style>
-  html,body{
-    /*margin:0;*/
-    /*padding:0;*/
-    /*height:100%;*/
-    background-color: cornflowerblue;
-  }
-  /*.main{*/
-  /*  min-height:100%;*/
-  /*  min-height:100vh;*/
-  /*  box-sizing:border-box;*/
-  /*}*/
-  /*body {*/
-  /*  background-attachment: fixed;*/
-  /*  !*border-radius: 100px !important;*!*/
-  /*  position: relative !important;*/
-  /*  !*padding: 16px 24px !important;*!*/
-  /*  border: none !important;*/
-
-  /*  overflow-x:hidden;*/
-
-  /*  !*position: fixed;*!*/
-  /*}*/
-</style>
 <div
   class="center-block"
   style="margin: 2% 5% 5%; text-align: center; font-family: gilroy, serif"
@@ -53,31 +29,29 @@
 
 <p align="center">
 <img src="\static\img.png" alt="Obi Wan Kenobi">
+<iframe
+        width="500"
+        height="500"
+        src="https://docs.google.com/document/d/e/2PACX-1vS42UgLxAYPszXqeZ5ypue2ZucMPCfmdqsNggdVBRSYW1t7mzGPylB0bGCl0bPKFILP9ZVbf1cEb8ey/pub?embedded=true"
+></iframe>
 </p>
 
-<p align="left">
-    <iframe
-      width="500"
-      height="500"
-      src="https://docs.google.com/document/d/e/2PACX-1vS42UgLxAYPszXqeZ5ypue2ZucMPCfmdqsNggdVBRSYW1t7mzGPylB0bGCl0bPKFILP9ZVbf1cEb8ey/pub?embedded=true"
-    ></iframe>
-  </p>
 {% endblock %}
 
 <!- This is turning off birds background from base.html -->
 {% block background %}
-<!--<script src="{{ url_for('static', filename='three.r119.min.js') }}"></script>-->
-<!--<script src="{{ url_for('static', filename='vanta.halo.min.js') }}"></script>-->
-<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>-->
-<!--<script src="https://cdn.jsdelivr.net/npm/vanta@0.5.21/dist/vanta.waves.min.js"></script>-->
-<!--<script>-->
-<!--  VANTA.WAVES({-->
-<!--    el: "body", // element selector string or DOM object reference-->
-<!--    color: 0x0067a5,-->
-<!--    waveHeight: 20,-->
-<!--    shininess: 50,-->
-<!--    waveSpeed: 1.5,-->
-<!--    zoom: 0.75,-->
-<!--  });-->
-<!--</script>-->
+<script src="{{ url_for('static', filename='three.r119.min.js') }}"></script>
+<script src="{{ url_for('static', filename='vanta.halo.min.js') }}"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanta@0.5.21/dist/vanta.waves.min.js"></script>
+<script>
+  VANTA.WAVES({
+    el: "body", // element selector string or DOM object reference
+    color: 0xB4377,
+    waveHeight: 20,
+    shininess: 50,
+    waveSpeed: 1.5,
+    zoom: 0.75,
+  });
+</script>
 {% endblock %}

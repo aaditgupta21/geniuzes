@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="23f8de38-848f-40f0-9730-536418708587" name="Changes" comment="change to home page and new team title">
+    <list default="true" id="23f8de38-848f-40f0-9730-536418708587" name="Changes" comment="funny image">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/binary.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/binary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/image.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/image.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/rgb.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/rgb.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/rohit.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/rohit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/week0journal.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/week0journal.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +76,7 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\gaikw_lehdr31\AppData\Local\Programs\Python\Python39\python.exe" />
+      <option name="SDK_HOME" value="C:\Users\deroh\AppData\Local\Programs\Python\Python39\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -89,10 +92,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <list>
-      <item itemvalue="Python.image" />
-      <item itemvalue="Python.main" />
-    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.main" />
@@ -127,6 +126,7 @@
       <workItem from="1632344210629" duration="33000" />
       <workItem from="1632344270137" duration="1023000" />
       <workItem from="1632467741197" duration="776000" />
+      <workItem from="1633036260081" duration="2352000" />
     </task>
     <task id="LOCAL-00001" summary="add rohan page">
       <created>1630530619217</created>
@@ -191,14 +191,7 @@
       <option name="project" value="LOCAL" />
       <updated>1632449279737</updated>
     </task>
-    <task id="LOCAL-00010" summary="change to home page and new team title">
-      <created>1632952310568</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1632952310568</updated>
-    </task>
-    <option name="localTasksCounter" value="11" />
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,11 +227,10 @@
     <MESSAGE value="slight change to binary page title" />
     <MESSAGE value="changed color of fonts to match our teams color" />
     <MESSAGE value="funny image" />
-    <MESSAGE value="change to home page and new team title" />
-    <option name="LAST_COMMIT_MESSAGE" value="change to home page and new team title" />
+    <option name="LAST_COMMIT_MESSAGE" value="funny image" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/flask_portfolio$main.coverage" NAME="main Coverage Results" MODIFIED="1632952026073" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/flask_portfolio_aadit$main.coverage" NAME="main Coverage Results" MODIFIED="1632173450731" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/flask_portfolio$main.coverage" NAME="main Coverage Results" MODIFIED="1632448777508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/flask_portfolio_aadit$main.coverage" NAME="main Coverage Results" MODIFIED="1633055913828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
