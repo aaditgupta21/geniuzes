@@ -8,6 +8,7 @@
     --white: whitesmoke;
     --black: black;
     --grey: grey;
+    --red: crimson;
 }
 
 .box { display:inline-block; }
@@ -33,7 +34,7 @@ h1{
 }
 
 a {
-    color: midnightblue;
+    color: crimson;
 }
 
 .fa{

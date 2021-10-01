@@ -7,14 +7,14 @@
 <!- This is a replacement block for Body in base.html -->
 {% block body %}
 <!- Try building a new body here ->
-<p style="text-align: center; font-size: 60px; font-weight: 600">
+<p style="text-align: center; color: white; font-size: 60px; font-weight: 600">
   Aadit Gupta<br />
   Home Page
 </p>
-<div class="col-12 offset-lg-3">
+<div class="col-12 offset-lg-3" style="color: white">
   <p>Hello, {{name}}!</p>
 </div>
-<div class="col-12 offset-lg-3">
+<div class="col-12 offset-lg-3" style="color: white">
   <form action="/aadit" id="aadit" method="POST">
     <label for="name">Type a greeting name?</label>
     <input name="name" id="name" />
