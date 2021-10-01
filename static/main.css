@@ -99,6 +99,6 @@ a {
     text-align: center !important;
     margin: 0 auto;
 }
-.cornflower-blue {
-    color: cornflowerblue;
-}
+ table, td, th {
+     color: crimson;
+ }
