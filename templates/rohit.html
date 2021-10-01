@@ -7,33 +7,32 @@
 <!- This is a replacement block for Body in base.html -->
 {% block body %}
 <p style="text-align: center; font-size: 60px; font-weight: 600">
-  Rohit De<br />
-  Home Page
+  Hi! I am Rohit De<br />
 </p>
 
 <div
   class="center-block"
   style="margin: 2% 5% 5%; text-align: center; font-family: gilroy, serif"
 >
-  <div class="col-0">
-    <p style="font-size: 30px">Hello {{nick}}!</p>
-  </div>
+
   <div class="col-0">
     <form action="/rohit" id="greet" method="POST">
-      <label style="font-size: 30px" for="name">Type a greeting name?</label>
-      <input style="font-size: 30px" name="name" id="name" />
+      <input placeholder="What's your name?" style="font-size: 30px" name="name" id="name" />
       <input style="font-size: 30px" type="submit" value="Click Me!" />
     </form>
+  </div>
+  <div class="col-0">
+    <p style="font-size: 30px">Hello {{nick}}!</p>
   </div>
 </div>
 
 <p align="center">
 <img src="\static\img.png" alt="Obi Wan Kenobi">
-<iframe
-        width="500"
-        height="500"
-        src="https://docs.google.com/document/d/e/2PACX-1vS42UgLxAYPszXqeZ5ypue2ZucMPCfmdqsNggdVBRSYW1t7mzGPylB0bGCl0bPKFILP9ZVbf1cEb8ey/pub?embedded=true"
-></iframe>
+
+<iframe src="https://docs.google.com/document/d/e/2PACX-1vS42UgLxAYPszXqeZ5ypue2ZucMPCfmdqsNggdVBRSYW1t7mzGPylB0bGCl0bPKFILP9ZVbf1cEb8ey/pub?embedded=true"
+          height="512" width="512" align="center">
+
+</iframe>
 </p>
 
 {% endblock %}
