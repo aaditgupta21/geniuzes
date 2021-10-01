@@ -1,7 +1,11 @@
-from PIL import Image, ImageDraw
+from PIL import Image, ImageDraw, ImageFont
 import numpy
 import base64
 from io import BytesIO
+# import os
+# from pathlib import Path
+# Import the os module
+
 
 
 # image (PNG, JPG) to base64 conversion (string), learn about base64 on wikipedia https://en.wikipedia.org/wiki/Base64
@@ -20,9 +24,9 @@ def image_formatter(img, img_type):
 def image_data(path="static/img/", img_list=None):  # path of static images is defaulted
     if img_list is None:  # color_dict is defined with defaults
         img_list = [
-            {'source': "Dog", 'label': "Funny Dog", 'file': "dog.jpg"},
-            {'source': "Lamborghini", 'label': "Cool Photo of Lambo", 'file': "lambo.jpg"},
-            {'source': "Genizuese", 'label': "A Weird Panarama", 'file': "weirdpano.png"},
+            {'source': "Dog", 'label': "Funny Dog", 'file': "dog.jpg", 'position': (0, 0), 'font': 100},
+            {'source': "Lamborghini", 'label': "Cool Photo of Lambo", 'file': "lambo.jpg", 'position': (200, 200), 'font': 24},
+            {'source': "Genizuese", 'label': "A Weird Panorama", 'file': "weirdpano.png", 'position': (500, 300), 'font': 24},
 
         ]
     # gather analysis data and meta data for each image, adding attributes to each row in table
@@ -31,6 +35,9 @@ def image_data(path="static/img/", img_list=None):  # path of static images is d
         file = path + img_dict['file']  # file with path for local access (backend)
         # Python Image Library operations
         img_reference = Image.open(file)  # PIL
+        draw = ImageDraw.Draw(img_reference)
+        font = ImageFont.truetype('arial.ttf', size=img_dict['font'])
+        draw.text(img_dict['position'], "eqrqwer", fill=(255,255,255), font=font)
         img_data = img_reference.getdata()  # Reference https://www.geeksforgeeks.org/python-pil-image-getdata/
         img_dict['format'] = img_reference.format
         img_dict['mode'] = img_reference.mode
