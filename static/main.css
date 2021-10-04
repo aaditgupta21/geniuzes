@@ -30,6 +30,7 @@ html, body{
 }
 
 h1{
+    color: crimson;
     font-size: 5em;
 }
 
@@ -102,3 +103,6 @@ a {
  table, td, th {
      color: crimson;
  }
+p{
+    color:white;
+}
