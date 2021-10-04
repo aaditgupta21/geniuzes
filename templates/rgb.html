@@ -1,15 +1,7 @@
 <!DOCTYPE html>
-{% extends "layouts/base.html" %}
+{% extends "layouts/layout.html" %}
 
 {% block meta %}
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
-        img:hover {
-            -webkit-transform: scaleX(-1);
-            transform: scaleX(-1);
-        }
-    </style>
-
     <script>
         var color = {{ colored|safe }}
         var gray = {{ grayed|safe }}
@@ -31,6 +23,7 @@
                 imageType = 0;
             }
         }
+
         let rot = 0;
         function imgrotate() {
             rot += 90;
@@ -50,24 +43,21 @@
     //  document.getElementID("img_gray<n>").innerHTML
     //  help: https://www.geeksforgeeks.org/how-to-change-the-src-attribute-of-an-img-element-in-javascript-jquery/
     </script>
-
-
-
     <title>RGB starter</title>
 {% endblock %}
 
 {% block content %}
-    <h1 style="color: cornflowerblue" class="text-center">RGB values within an Image</h1>
+    <h1 class="text-center">RGB values within an Image</h1>
     <div class="container">
-        <button onClick="imgrotate()">Rotate Image</button>
         <button onclick="toggle()">Toggle Colors!</button>
+        <button onClick="imgrotate()">Rotate Image</button>
         <div class="row justify-content-md-center">
             <table class="table">
                 <thead>
                 <tr>
-                    <th style="color: cornflowerblue">Meta Data</th>
-                    <th style="color: cornflowerblue">Image</th>
-                    <th style="color: cornflowerblue">Data</th>
+                    <th>Meta Data</th>
+                    <th>Image</th>
+                    <th>Data</th>
                 </tr>
                 </thead>
                 <tbody>
@@ -95,10 +85,10 @@
                                 <table class="table">
                                     <thead>
                                     <tr>
-                                        <th style="color: cornflowerblue">#</th>
-                                        <th style="color: cornflowerblue">{{image.mode}}</th>
-                                        <th style="color: cornflowerblue">Hex Code</th>
-                                        <th style="color: cornflowerblue">Binary</th>
+                                        <th>#</th>
+                                        <th>{{image.mode}}</th>
+                                        <th>Hex Code</th>
+                                        <th>Binary</th>
                                     </tr>
                                     </thead>
                                     <tbody>

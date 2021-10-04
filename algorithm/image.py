@@ -1,11 +1,7 @@
-from PIL import Image, ImageDraw, ImageFont
+from PIL import Image, ImageDraw,ImageFont
 import numpy
 import base64
 from io import BytesIO
-# import os
-# from pathlib import Path
-# Import the os module
-
 
 
 # image (PNG, JPG) to base64 conversion (string), learn about base64 on wikipedia https://en.wikipedia.org/wiki/Base64
@@ -23,11 +19,10 @@ def image_formatter(img, img_type):
 # color_data prepares a series of images for data analysis
 def image_data(path="static/img/", img_list=None):  # path of static images is defaulted
     if img_list is None:  # color_dict is defined with defaults
-        img_list = [
-            {'source': "Dog", 'label': "Funny Dog", 'file': "dog.jpg", 'position': (0, 0), 'font': 100},
-            {'source': "Lamborghini", 'label': "Cool Photo of Lambo", 'file': "lambo.jpg", 'position': (200, 200), 'font': 24},
-            {'source': "Genizuese", 'label': "A Weird Panorama", 'file': "weirdpano.png", 'position': (500, 300), 'font': 24},
-
+         img_list = [
+            # {'source': "Dog", 'label': "Funny Dog", 'file': "dog.jpg", 'position': (200, 200), 'font': 100},
+            {'source': "Lamborghini", 'label': "Cool Photo of Lambo", 'file': "lambo.jpg", 'position': (200, 200), 'font': 100},
+            {'source': "Genizuese", 'label': "A Weird Panorama", 'file': "weirdpano.png", 'position': (200, 200), 'font': 150},
         ]
     # gather analysis data and meta data for each image, adding attributes to each row in table
     for img_dict in img_list:
@@ -37,7 +32,8 @@ def image_data(path="static/img/", img_list=None):  # path of static images is d
         img_reference = Image.open(file)  # PIL
         draw = ImageDraw.Draw(img_reference)
         font = ImageFont.truetype('arial.ttf', size=img_dict['font'])
-        draw.text(img_dict['position'], "eqrqwer", fill=(255,255,255), font=font)
+        draw.text(img_dict['position'], "Testing!", fill=(255,255,255), font=font)
+
         img_data = img_reference.getdata()  # Reference https://www.geeksforgeeks.org/python-pil-image-getdata/
         img_dict['format'] = img_reference.format
         img_dict['mode'] = img_reference.mode
@@ -48,6 +44,7 @@ def image_data(path="static/img/", img_list=None):  # path of static images is d
         img_dict['data'] = numpy.array(img_data)
         img_dict['hex_array'] = []
         img_dict['binary_array'] = []
+        img_dict['gray_data'] = []
         # 'data' is a list of RGB data, the list is traversed and hex and binary lists are calculated and formatted
         for pixel in img_dict['data']:
             # hexadecimal conversions
@@ -58,8 +55,6 @@ def image_data(path="static/img/", img_list=None):  # path of static images is d
             bin_value = bin(pixel[0])[2:].zfill(8) + " " + bin(pixel[1])[2:].zfill(8) + " " + bin(pixel[2])[2:].zfill(8)
             img_dict['binary_array'].append(bin_value)
         # create gray scale of image, ref: https://www.geeksforgeeks.org/convert-a-numpy-array-to-an-image/
-        img_dict['gray_data'] = []
-        for pixel in img_dict['data']:
             average = (pixel[0] + pixel[1] + pixel[2]) // 3
             if len(pixel) > 3:
                 img_dict['gray_data'].append((average, average, average, pixel[3]))
