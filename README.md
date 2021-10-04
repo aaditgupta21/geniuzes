@@ -38,6 +38,13 @@ RGB Project
 backend and frontend of the RGB project is complete but yet to add text box input
 ![image](https://user-images.githubusercontent.com/44128572/135920697-91a8b81d-947a-4d1e-96f3-5a08498d56e3.png)
 
+Assignee | Requirements | Evidence |
+-------- | ----------- | ----------| 
+Aadit | Work on Frontend, new developments and corrections | [development](https://github.com/aaditgupta21/geniuzes/commit/327b42f74a5bee36d4eb3e0627f2d12ad142e7f6) | 
+Adi  | Work on backend RGB and styling | [Aadit Gupta & Adi Khandelwal Journal](https://docs.google.com/document/d/18m2DBuJrDUOoWUPMxL7_-LjTvGnrwFLhQMYxaZReocM/edit?usp=sharing) |
+Rohit | Work on backend and new development for RGB | [link](https://github.com/aaditgupta21/geniuzes/commit/dc60e591d8ed02008b67679be7a6bc675c51221f)  |
+Rohan | Work on styling Research |  [Rohit De & Rohan Gaikwad Journal](https://docs.google.com/document/d/1c5PIYwjII7IuVlCnkpn-ORHjwLj-XQIN5B2BWxP6aOw/edit?usp=sharing) |
+
 Sprint-5-Week-5
 =================
 Assignee | Requirements | Evidence |
