@@ -32,6 +32,12 @@ Runtime_Link
 
 To be determined!
 
+Sprint-6-Week-6
+============
+RGB Project
+backend and frontend of the RGB project is complete but yet to add text box input
+![image](https://user-images.githubusercontent.com/44128572/135920697-91a8b81d-947a-4d1e-96f3-5a08498d56e3.png)
+
 Sprint-5-Week-5
 =================
 Assignee | Requirements | Evidence |
