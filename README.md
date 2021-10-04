@@ -42,8 +42,8 @@ Assignee | Requirements | Evidence |
 -------- | ----------- | ----------| 
 Aadit | Work on Frontend, new developments and corrections | [development](https://github.com/aaditgupta21/geniuzes/commit/327b42f74a5bee36d4eb3e0627f2d12ad142e7f6) | 
 Adi  | Work on backend RGB and styling | [Aadit Gupta & Adi Khandelwal Journal](https://docs.google.com/document/d/18m2DBuJrDUOoWUPMxL7_-LjTvGnrwFLhQMYxaZReocM/edit?usp=sharing) |
-Rohit | Work on backend and new development for RGB | [link](https://github.com/aaditgupta21/geniuzes/commit/dc60e591d8ed02008b67679be7a6bc675c51221f)  |
-Rohan | Work on styling Research |  [Rohit De & Rohan Gaikwad Journal](https://docs.google.com/document/d/1c5PIYwjII7IuVlCnkpn-ORHjwLj-XQIN5B2BWxP6aOw/edit?usp=sharing) |
+Rohit | Work on backend and new development for RGB | [image photo flip](https://github.com/aaditgupta21/geniuzes/commit/3002c11c4fe5b35c6ba6db9c8dd37b4388d3d5d3) [backend](https://github.com/aaditgupta21/geniuzes/commit/dc60e591d8ed02008b67679be7a6bc675c51221f) |
+Rohan | Work on styling, Research, big o notation |  [Rohit De & Rohan Gaikwad Journal](https://docs.google.com/document/d/1c5PIYwjII7IuVlCnkpn-ORHjwLj-XQIN5B2BWxP6aOw/edit?usp=sharing) |
 
 Sprint-5-Week-5
 =================
