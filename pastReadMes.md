@@ -1,3 +1,12 @@
+## Table Of Contents
+
+  - [Project Credits](https://github.com/aaditgupta21/geniuzes#geniuzes-project-credits)
+  - [Week 5](https://github.com/aaditgupta21/geniuzes#geniuzes#week-5)
+  - [Week 4](https://github.com/aaditgupta21/geniuzes#geniuzes#week-4)
+  - [Week 3](https://github.com/aaditgupta21/geniuzes#geniuzes#week-3)
+  - [Week 2](https://github.com/aaditgupta21/geniuzes#geniuzes#week-2)
+  - [Ideation](https://github.com/aaditgupta21/geniuzes#geniuzes#ideation)
+
 ## Week 3
 
 Requirements | Evidence |
