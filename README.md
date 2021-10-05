@@ -1,20 +1,24 @@
-Table of contents
-=================
+Geniuzes
+=============
 
-<!--ts-->
-   * [Credits](#credits)
-   * [Runtime Link](#runtime_link)
-   * [Sprint 2 Week 2](#sprint_2_week_2)
-   * [Sprint 3 Week 3](#sprint_3_week_3)
-<!--te-->
+## Table Of Contents
+
+  - [Project Credits](https://github.com/aaditgupta21/geniuzes#geniuzes-project-credits)
+  - [Week 5](https://github.com/aaditgupta21/geniuzes#geniuzes#week-5)
+  - [Week 4](https://github.com/aaditgupta21/geniuzes#geniuzes#week-4)
+  - [Week 3](https://github.com/aaditgupta21/geniuzes#geniuzes#week-3)
+  - [Week 2](https://github.com/aaditgupta21/geniuzes#geniuzes#week-2)
+  - [Ideation](https://github.com/aaditgupta21/geniuzes#geniuzes#ideation)
 
 
-Credits
-============
+## Geniuzes Project Credits
+
+### [Flask Portfolio Original Project](https://portfolio.nighthawkcodingsociety.com/)
+### Runtime Link
+To be determined!
 
 - [Team Scrum Board](https://github.com/aaditgupta21/flask_portfolio/projects/1)
 - [Team Insight Graphs](https://github.com/aaditgupta21/flask_portfolio/graphs/contributors)
-
 
 Contributor | GitHub | Tasks | Scrum Board | Commit | Journal Links
 ----------- | ----------- | ------------- | ------------- | ------------- | -------------
@@ -23,30 +27,26 @@ Adi Khandelwal | [@Adi-K-Coding](https://github.com/Adi-K-Coding) | [Tasks](http
 Rohit De | [@rohitd3](https://github.com/rohitd3) | [Tasks](https://github.com/aaditgupta21/flask_portfolio/issues) | [Scrum Board](https://github.com/aaditgupta21/flask_portfolio/projects/1) | [Commits](https://github.com/aaditgupta21/flask_portfolio/commits/main?author=rohitd3) | [Rohit De & Rohan Gaikwad Journal](https://docs.google.com/document/d/1c5PIYwjII7IuVlCnkpn-ORHjwLj-XQIN5B2BWxP6aOw/edit?usp=sharing)
 Rohan Gaikwad | [@rohang326](https://github.com/rohang326) | [Tasks](https://github.com/aaditgupta21/flask_portfolio/issues) | [Scrum Board](https://github.com/aaditgupta21/flask_portfolio/projects/1) | [Commits](https://github.com/aaditgupta21/flask_portfolio/commits/main?author=rohang326) | [Rohit De & Rohan Gaikwad Journal](https://docs.google.com/document/d/1c5PIYwjII7IuVlCnkpn-ORHjwLj-XQIN5B2BWxP6aOw/edit?usp=sharing)
 
+## Week 6
 
-
-
-
-Runtime_Link
-============
-
-To be determined!
-
-Sprint-6-Week-6
-============
-RGB Project
-backend and frontend of the RGB project is complete but yet to add text box input
-![image](https://user-images.githubusercontent.com/44128572/135920697-91a8b81d-947a-4d1e-96f3-5a08498d56e3.png)
-
+### RGB Project
 Assignee | Requirements | Evidence |
 -------- | ----------- | ----------| 
-Aadit | Work on Frontend, new developments and corrections | [development](https://github.com/aaditgupta21/geniuzes/commit/327b42f74a5bee36d4eb3e0627f2d12ad142e7f6) | 
-Adi  | Work on backend RGB and styling | [Aadit Gupta & Adi Khandelwal Journal](https://docs.google.com/document/d/18m2DBuJrDUOoWUPMxL7_-LjTvGnrwFLhQMYxaZReocM/edit?usp=sharing) |
-Rohit | Work on backend and new development for RGB | [image photo flip](https://github.com/aaditgupta21/geniuzes/commit/3002c11c4fe5b35c6ba6db9c8dd37b4388d3d5d3) [backend](https://github.com/aaditgupta21/geniuzes/commit/dc60e591d8ed02008b67679be7a6bc675c51221f) |
-Rohan | Work on styling, Research, big o notation |  [Rohit De & Rohan Gaikwad Journal](https://docs.google.com/document/d/1c5PIYwjII7IuVlCnkpn-ORHjwLj-XQIN5B2BWxP6aOw/edit?usp=sharing) |
+Aadit | Worked on frontend, new development and corrections in code| [Frontend](https://github.com/aaditgupta21/geniuzes/commit/818c0e0ddb75ee41cc8c0c0ce1672ea281a8e35e) | 
+Adi  | Worked on backend and styling | [Backend](https://github.com/aaditgupta21/geniuzes/commit/dc60e591d8ed02008b67679be7a6bc675c51221f) and [coloring](https://github.com/aaditgupta21/geniuzes/commit/09b95c6e1bf7829c54ce1ac37584b707f6d00aee)|
+Rohit | Worked on backend, new development, documentation and Base 2, 8, 16 and 64 research | [image photo flip](https://github.com/aaditgupta21/geniuzes/commit/3002c11c4fe5b35c6ba6db9c8dd37b4388d3d5d3) [backend](https://github.com/aaditgupta21/geniuzes/commit/dc60e591d8ed02008b67679be7a6bc675c51221f) |
+Rohan | Worked on styling and big o notation | Big O notation in [Rohit De & Rohan Gaikwad Journal](https://docs.google.com/document/d/1c5PIYwjII7IuVlCnkpn-ORHjwLj-XQIN5B2BWxP6aOw/edit?usp=sharing) and added [styling](https://github.com/aaditgupta21/geniuzes/commit/9615f588a89d3e0235eefb3e4c8c53e7bdf3c81a) |
 
-Sprint-5-Week-5
-=================
+### College Board Requirements - Week 6
+| Team Pair | Requirment | Evidence | Grade (on Slack) |
+| --- | --- | --- | --- |
+| Rohit/Rohan | Complete Unit 3.3 and 3.4 Notes and Quiz w/ corrections if needed. | [Rohit De & Rohan Gaikwad Journal](https://docs.google.com/document/d/1c5PIYwjII7IuVlCnkpn-ORHjwLj-XQIN5B2BWxP6aOw/edit?usp=sharing) | 2/2 |
+| Adi/Aadit | Complete Unit 3.3 and 3.4 Notes and Quiz w/ corrections if needed. | [Aadit Gupta & Adi Khandelwal Journal](https://docs.google.com/document/d/18m2DBuJrDUOoWUPMxL7_-LjTvGnrwFLhQMYxaZReocM/edit?usp=sharing) | 2/2 |
+
+#### [Documenation](https://docs.google.com/document/d/19AXaWuXG6orp8M8j5ZbO4wLn8I68RCdDkyOd4c6JR94/edit) for code organization of our project
+
+
+## Week 5
 Assignee | Requirements | Evidence |
 -------- | ----------- | ----------| 
 Aadit | backend/frontend RGB |[link](https://github.com/aaditgupta21/flask_portfolio/commit/327b42f74a5bee36d4eb3e0627f2d12ad142e7f6) | 
@@ -68,8 +68,7 @@ Developers. Integration of Greet like functionality into a mini-lab page | Added
 Developers. Integration of Video Journal 0 into a mini-lab page | [Video Journal 0 embedded into portfolio ](https://www.youtube.com/playlist?list=PLT0pUL77e5RFi8ZPMgJNCi7Gp_5K-BZ0K) ![image](https://user-images.githubusercontent.com/44128572/133027005-909838fb-7c2e-4afa-8932-e0ac62d0d34c.png)|
 
 
-Sprint_3_Week_3
-============
+## Week 3
 
 Requirements | Evidence |
 ----------- | ----------- |
