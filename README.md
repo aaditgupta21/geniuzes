@@ -25,7 +25,7 @@ Assignee | Requirements | Evidence |
 -------- | ----------- | ----------| 
 Aadit | Worked on frontend, new development and corrections in code| [Frontend](https://github.com/aaditgupta21/geniuzes/commit/818c0e0ddb75ee41cc8c0c0ce1672ea281a8e35e) | 
 Adi  | Worked on backend and styling | [Backend](https://github.com/aaditgupta21/geniuzes/commit/dc60e591d8ed02008b67679be7a6bc675c51221f) and [coloring](https://github.com/aaditgupta21/geniuzes/commit/09b95c6e1bf7829c54ce1ac37584b707f6d00aee)|
-Rohit | Worked on backend, new development, documentation and Base 2, 8, 16 and 64 research | [image photo flip](https://github.com/aaditgupta21/geniuzes/commit/3002c11c4fe5b35c6ba6db9c8dd37b4388d3d5d3) [backend](https://github.com/aaditgupta21/geniuzes/commit/dc60e591d8ed02008b67679be7a6bc675c51221f) |
+Rohit | Worked on backend, new development, documentation and Base 2, 8, 16 and 64 research | [research and documentation in journal](https://docs.google.com/document/d/1c5PIYwjII7IuVlCnkpn-ORHjwLj-XQIN5B2BWxP6aOw/edit#) [backend](https://github.com/aaditgupta21/geniuzes/commit/dc60e591d8ed02008b67679be7a6bc675c51221f) |
 Rohan | Worked on styling and big o notation | Big O notation in [Rohit De & Rohan Gaikwad Journal](https://docs.google.com/document/d/1c5PIYwjII7IuVlCnkpn-ORHjwLj-XQIN5B2BWxP6aOw/edit?usp=sharing) and added [styling](https://github.com/aaditgupta21/geniuzes/commit/9615f588a89d3e0235eefb3e4c8c53e7bdf3c81a) |
 
 ### College Board Requirements - Week 6
