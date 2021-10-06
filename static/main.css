@@ -9,6 +9,7 @@
     --black: black;
     --grey: grey;
     --red: crimson;
+    --offwhite: #F8FOE3;
 }
 
 .box { display:inline-block; }
@@ -104,5 +105,9 @@ a {
      color: crimson;
  }
 p{
-    color:white;
+    color: white;
+}
+
+title {
+    color: crimson;
 }

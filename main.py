@@ -56,6 +56,14 @@ def binary():
             return render_template("binary.html", bits=int(bits))
     return render_template("binary.html", bits=8)
 
+@app.route('/binaryweek7',methods=['GET', 'POST'])
+def binary7():
+    if request.form:
+        bits = request.form.get("bits")
+        if int(bits) >= 8:
+            return render_template("binary-week7.html", bits=int(bits))
+    return render_template("binary-week7.html", bits=8)
+
 @app.route('/week0journal/')
 def week0journal():
     return render_template("week0journal.html")
