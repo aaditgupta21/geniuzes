@@ -6,26 +6,31 @@
 
 <!- This is a replacement block for Body in base.html -->
 {% block body %}
-<p style="text-align: center; font-size: 100px; font-weight: 600;">Adi Khandelwal</p>
-<div class="center-block" style="margin: 2% 5% 5%; text-align:center; font-family: gilroy,serif;">
-    <div class="col-12">
-        <p>What's Up, {{nick}}!</p>
-    </div>
-    <div class="col-12">
-        <form action="/adi" id="greet" method="POST" >
-            <label for="name">Enter an input</label>
-            <input name="name" id="name">
-            <input type="submit" value="Enter">
-        </form>
-    </div>
+<p style="text-align: center; font-size: 100px; font-weight: 600">
+  Adi Khandelwal
+</p>
+<div
+  class="center-block"
+  style="margin: 2% 5% 5%; text-align: center; font-family: gilroy, serif"
+>
+  <div class="col-12">
+    <p>What's Up, {{nick}}!</p>
+  </div>
+  <div class="col-12">
+    <form action="/adi" id="greet" method="POST">
+      <label for="name">Enter an input</label>
+      <input name="name" id="name" />
+      <input type="submit" value="Enter" />
+    </form>
+  </div>
 </div>
 <p align="center">
-    <iframe
-      width="1000"
-      height="500"
-      src="https://docs.google.com/document/d/e/2PACX-1vRkZHGrM8WTea-wpW6-BnMWkatiEHXfGxLf3qy1XwI4-xp5h_MrJIZk5zt9uaQEosD_hFS8xPGI6X-4/pub?embedded=true"
-    ></iframe>
-  </p>
+  <iframe
+    width="1000"
+    height="500"
+    src="https://docs.google.com/document/d/e/2PACX-1vRkZHGrM8WTea-wpW6-BnMWkatiEHXfGxLf3qy1XwI4-xp5h_MrJIZk5zt9uaQEosD_hFS8xPGI6X-4/pub?embedded=true"
+  ></iframe>
+</p>
 {% endblock %}
 
 <!- This is turning off birds background from base.html -->
@@ -35,15 +40,13 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/vanta@0.5.21/dist/vanta.waves.min.js"></script>
 <script>
-    VANTA.WAVES({
-        el: "body", // element selector string or DOM object reference
-        color: 0x466d1d,
-        waveHeight: 20,
-        shininess: 50,
-        waveSpeed: 1.5,
-        zoom: 0.75,
-    });
+  VANTA.WAVES({
+    el: "body", // element selector string or DOM object reference
+    color: 0x466d1d,
+    waveHeight: 20,
+    shininess: 50,
+    waveSpeed: 1.5,
+    zoom: 0.75,
+  });
 </script>
 {% endblock %}
-
-

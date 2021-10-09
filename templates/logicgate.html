@@ -1,0 +1,130 @@
+<!-- Extending the project layout, as this file will do minor customizations -->
+{% extends "layouts/base.html" %}
+
+<!-- Setting up variables to customize "project" details to be specific to kangaroos -->
+
+{% block body %}
+<input type="checkbox" id="input1" name="input1" value="A" />
+<label for="input1"> A </label><br />
+<input type="checkbox" id="input2" name="input2" value="B" />
+<label for="input2"> B </label><br />
+
+<script>
+  // return string with current value of each bit
+  console.log(document.getElementById("input1").checked);
+  function computeGateValues() {
+    logic1 = document.getElementById("input1").checked;
+    logic2 = document.getElementById("input2").checked;
+    andResults = logic1 && logic2;
+    nandResults = !andResults;
+    orResults = logic1 || logic2;
+    norResults = !orResults;
+    xorResults = (logic1 && !logic2) || (!logic1 && logic2);
+    notResults = !(logic1 && logic2);
+
+    document.getElementById("and_gate_text").value = andResults;
+    document.getElementById("nand_gate_text").value = nandResults;
+    document.getElementById("or_gate_text").value = orResults;
+    document.getElementById("nor_gate_text").value = norResults;
+    document.getElementById("xor_gate_text").value = xorResults;
+    document.getElementById("not_gate_text").value = notResults;
+  }
+</script>
+
+<input type="button" value="Submit" onclick="computeGateValues()" />
+
+<table style="width: 100%; height: 100%" border="5">
+  <tr>
+    <th colspan="3">
+      <h3><br />Logic Gates</h3>
+    </th>
+  </tr>
+  <th>Logic Gate</th>
+  <th>Gate Image</th>
+  <th>Result</th>
+  <tr>
+    <td>And Gate</td>
+    <td>
+      <img
+        id="and_gate"
+        src="/static/img/andgate.png"
+        alt="And Gate"
+        height="100"
+        width="300"
+      />
+    </td>
+    <td><textarea id="and_gate_text" rows="1" cols="20"></textarea></td>
+  </tr>
+
+  <tr>
+    <td>Nand Gate</td>
+    <td>
+      <img
+        id="nand_gate"
+        src="/static/img/nandgate.png"
+        alt="Nand Gate"
+        height="100"
+        width="300"
+      />
+    </td>
+    <td><textarea id="nand_gate_text" rows="1" cols="20"></textarea></td>
+  </tr>
+
+  <tr>
+    <td>Or Gate</td>
+    <td>
+      <img
+        id="or_gate"
+        src="/static/img/orgate.png"
+        alt="Or Gate"
+        height="100"
+        width="300"
+      />
+    </td>
+    <td><textarea id="or_gate_text" rows="1" cols="20"></textarea></td>
+  </tr>
+
+  <tr>
+    <td>Nor Gate</td>
+    <td>
+      <img
+        id="nor_gate"
+        src="/static/img/norgate.png"
+        alt="Nor Gate"
+        height="100"
+        width="300"
+      />
+    </td>
+    <td><textarea id="nor_gate_text" rows="1" cols="20"></textarea></td>
+  </tr>
+
+  <tr>
+    <td>Xor Gate</td>
+    <td>
+      <img
+        id="xor_gate"
+        src="/static/img/xorgate.png"
+        alt="Xor Gate"
+        height="100"
+        width="300"
+      />
+    </td>
+    <td><textarea id="xor_gate_text" rows="1" cols="20"></textarea></td>
+  </tr>
+
+  <tr>
+    <td>Not Gate</td>
+    <td>
+      <img
+        id="not_gate"
+        src="/static/img/notgate.png"
+        alt="Not Gate"
+        height="100"
+        width="300"
+      />
+    </td>
+    <td><textarea id="not_gate_text" rows="1" cols="20"></textarea></td>
+  </tr>
+
+  {% block background %} {% endblock %} {% endblock %}
+</table>

@@ -68,6 +68,11 @@ def binary7():
 def week0journal():
     return render_template("week0journal.html")
 
+@app.route('/logicgate/')
+def logicgate():
+    return render_template("logicgate.html")
+
+
 @app.route('/rgb/')
 def rgb():
     rawList = image_data()
