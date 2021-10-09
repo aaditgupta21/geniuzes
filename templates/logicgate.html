@@ -9,6 +9,12 @@
 <input type="checkbox" id="input2" name="input2" value="B" />
 <label for="input2"> B </label><br />
 
+<style>
+  .gateimage {
+    height: 100px;
+    width: 300px;
+  }
+</style>
 <script>
   // return string with current value of each bit
   console.log(document.getElementById("input1").checked);
@@ -49,11 +55,10 @@
         id="and_gate"
         src="/static/img/andgate.png"
         alt="And Gate"
-        height="100"
-        width="300"
+        class="gateimage"
       />
     </td>
-    <td><textarea id="and_gate_text" rows="1" cols="20"></textarea></td>
+    <td><textarea id="and_gate_text"></textarea></td>
   </tr>
 
   <tr>
@@ -63,11 +68,10 @@
         id="nand_gate"
         src="/static/img/nandgate.png"
         alt="Nand Gate"
-        height="100"
-        width="300"
+        class="gateimage"
       />
     </td>
-    <td><textarea id="nand_gate_text" rows="1" cols="20"></textarea></td>
+    <td><textarea id="nand_gate_text"></textarea></td>
   </tr>
 
   <tr>
@@ -77,11 +81,10 @@
         id="or_gate"
         src="/static/img/orgate.png"
         alt="Or Gate"
-        height="100"
-        width="300"
+        class="gateimage"
       />
     </td>
-    <td><textarea id="or_gate_text" rows="1" cols="20"></textarea></td>
+    <td><textarea id="or_gate_text"></textarea></td>
   </tr>
 
   <tr>
@@ -91,11 +94,10 @@
         id="nor_gate"
         src="/static/img/norgate.png"
         alt="Nor Gate"
-        height="100"
-        width="300"
+        class="gateimage"
       />
     </td>
-    <td><textarea id="nor_gate_text" rows="1" cols="20"></textarea></td>
+    <td><textarea id="nor_gate_text"></textarea></td>
   </tr>
 
   <tr>
@@ -105,11 +107,10 @@
         id="xor_gate"
         src="/static/img/xorgate.png"
         alt="Xor Gate"
-        height="100"
-        width="300"
+        class="gateimage"
       />
     </td>
-    <td><textarea id="xor_gate_text" rows="1" cols="20"></textarea></td>
+    <td><textarea id="xor_gate_text"></textarea></td>
   </tr>
 
   <tr>
@@ -119,11 +120,10 @@
         id="not_gate"
         src="/static/img/notgate.png"
         alt="Not Gate"
-        height="100"
-        width="300"
+        class="gateimage"
       />
     </td>
-    <td><textarea id="not_gate_text" rows="1" cols="20"></textarea></td>
+    <td><textarea id="not_gate_text"></textarea></td>
   </tr>
 
   {% block background %} {% endblock %} {% endblock %}
