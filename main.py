@@ -1,7 +1,7 @@
 # import "packages" from flask
 from flask import Flask, render_template,request
 from algorithm.image import image_data
-
+import os
 
 # create a Flask instance
 app = Flask(__name__)
@@ -83,6 +83,10 @@ def rgb():
         grayList.append(img['base64_GRAY'])
     return render_template('rgb.html', images=rawList, colored=colorList, grayed=grayList)
 
-# runs the application on the development server
+
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(
+        debug=True,
+        host="127.0.0.1",
+        port=5000
+    ),
