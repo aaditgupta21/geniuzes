@@ -27,7 +27,7 @@
     orResults = logic1 || logic2;
     norResults = !orResults;
     xorResults = (logic1 && !logic2) || (!logic1 && logic2);
-    notResults = !(logic1 && logic2);
+    notResults = !logic1;
 
     document.getElementById("and_gate_text").value = andResults;
     document.getElementById("nand_gate_text").value = nandResults;
