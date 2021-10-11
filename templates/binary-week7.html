@@ -230,6 +230,7 @@
     binary = decimal_2_base(decimal, 2);
     // update conversions
     setConversions(binary);
+
     // update bits
     for (let i = 0; i < binary.length; i++) {
       let digit = binary.substr(i, 1);
@@ -245,12 +246,16 @@
   }
   function divide(n) {
     let binary = getBits();
-    // convert to decimal and do math
     let decimal = parseInt(binary, 2);
-    if (n > 0) {  // MULTIPLY
-      decimal = MAX === decimal ? 0 : decimal / n; // OVERFLOW or PLUS
+    if (decimal%2==0) {
+      decimal = decimal/2;
+    }else{
+      decimal = decimal/2;
+      decimal=Math.floor(decimal);
     }
-    // convert the result back to binary
+
+
+
     binary = decimal_2_base(decimal, 2);
     // update conversions
     setConversions(binary);
@@ -305,7 +310,7 @@
           <td id="ascii">0</td>
           <td id="unicode">0</td>
           <td><button type="button" id="sub1" onclick="add(-1)">-1</button></td>
-          <td><button type="button" id="div2" onclick="divide(2)">x/2</button></td>
+          <td><button type="button" id="div2" onclick="divide(2)">/2</button></td>
         </tr>
       </table>
     </div>
