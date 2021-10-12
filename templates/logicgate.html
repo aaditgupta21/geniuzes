@@ -2,8 +2,6 @@
 {% extends "layouts/base.html" %}
 {% set project = "Logic Gate" %}
 
-<!-- Setting up variables to customize "project" details to be specific to kangaroos -->
-
 {% block body %}
 <!-- Check boxes for A and B -->
 <input type="checkbox" id="input1" name="input1" value="A" />
@@ -18,7 +16,6 @@
   }
 </style>
 <script>
-  // return string with current value of each bit
   console.log(document.getElementById("input1").checked);
   function getValues() {
     logic1 = document.getElementById("input1").checked;
