@@ -24,31 +24,31 @@
     logic1 = document.getElementById("input1").checked;
     logic2 = document.getElementById("input2").checked;
     // And Results
-    andResults = logic1 && logic2;
+    and = logic1 && logic2;
     // Nand results
-    nandResults = !andResults;
+    nand = !and;
     // Or results
-    orResults = logic1 || logic2;
+    or = logic1 || logic2;
     // Nor results
-    norResults = !orResults;
+    nor = !or;
     // Xor results
-    xorResults = (logic1 && !logic2) || (!logic1 && logic2);
+    xor = (logic1 && !logic2) || (!logic1 && logic2);
     // Not results
-    notResults = !logic1;
+    not = !logic1;
 
     // adding value to textbox
-    document.getElementById("and_gate_text").value = andResults;
-    document.getElementById("nand_gate_text").value = nandResults;
-    document.getElementById("or_gate_text").value = orResults;
-    document.getElementById("nor_gate_text").value = norResults;
-    document.getElementById("xor_gate_text").value = xorResults;
-    document.getElementById("not_gate_text").value = notResults;
+    document.getElementById("and_gate_text").value = and;
+    document.getElementById("nand_gate_text").value = nand;
+    document.getElementById("or_gate_text").value = or;
+    document.getElementById("nor_gate_text").value = nor;
+    document.getElementById("xor_gate_text").value = xor;
+    document.getElementById("not_gate_text").value = not;
   }
 </script>
 
 <input type="button" value="Submit" onclick="getValues()" />
 
-<table style="width: 100%; height: 100%" border="5">
+<table style="width: 100%; height: 100%" border="1">
   <tr>
     <th colspan="3">
       <h3><br />Logic Gates</h3>
@@ -63,7 +63,6 @@
       <img
         id="and_gate"
         src="/static/img/andgate.png"
-        alt="And Gate"
         class="gateimage"
       />
     </td>
@@ -76,7 +75,6 @@
       <img
         id="nand_gate"
         src="/static/img/nandgate.png"
-        alt="Nand Gate"
         class="gateimage"
       />
     </td>
@@ -89,7 +87,6 @@
       <img
         id="or_gate"
         src="/static/img/orgate.png"
-        alt="Or Gate"
         class="gateimage"
       />
     </td>
@@ -102,7 +99,6 @@
       <img
         id="nor_gate"
         src="/static/img/norgate.png"
-        alt="Nor Gate"
         class="gateimage"
       />
     </td>
@@ -115,7 +111,6 @@
       <img
         id="xor_gate"
         src="/static/img/xorgate.png"
-        alt="Xor Gate"
         class="gateimage"
       />
     </td>
@@ -128,7 +123,6 @@
       <img
         id="not_gate"
         src="/static/img/notgate.png"
-        alt="Not Gate"
         class="gateimage"
       />
     </td>
