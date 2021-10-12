@@ -5,6 +5,7 @@
 <!-- Setting up variables to customize "project" details to be specific to kangaroos -->
 
 {% block body %}
+<!-- Check boxes for A and B -->
 <input type="checkbox" id="input1" name="input1" value="A" />
 <label for="input1"> A </label><br />
 <input type="checkbox" id="input2" name="input2" value="B" />
@@ -22,13 +23,21 @@
   function computeGateValues() {
     logic1 = document.getElementById("input1").checked;
     logic2 = document.getElementById("input2").checked;
+    // And Results
     andResults = logic1 && logic2;
+    // Nand results
     nandResults = !andResults;
+    // Or results
     orResults = logic1 || logic2;
+    // Nor results
     norResults = !orResults;
+    // Xor results
     xorResults = (logic1 && !logic2) || (!logic1 && logic2);
+    // Not results
     notResults = !(logic1 && logic2);
 
+
+    // adding value to textbox
     document.getElementById("and_gate_text").value = andResults;
     document.getElementById("nand_gate_text").value = nandResults;
     document.getElementById("or_gate_text").value = orResults;
