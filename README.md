@@ -18,6 +18,23 @@ To be determined!
 | Rohit De       | [@rohitd3](https://github.com/rohitd3)           | [Tasks](https://github.com/aaditgupta21/flask_portfolio/issues) | [Scrum Board](https://github.com/aaditgupta21/flask_portfolio/projects/1) | [Commits](https://github.com/aaditgupta21/flask_portfolio/commits/main?author=rohitd3)      | [Rohit De & Rohan Gaikwad Journal](https://docs.google.com/document/d/1c5PIYwjII7IuVlCnkpn-ORHjwLj-XQIN5B2BWxP6aOw/edit?usp=sharing)     |
 | Rohan Gaikwad  | [@rohang326](https://github.com/rohang326)       | [Tasks](https://github.com/aaditgupta21/flask_portfolio/issues) | [Scrum Board](https://github.com/aaditgupta21/flask_portfolio/projects/1) | [Commits](https://github.com/aaditgupta21/flask_portfolio/commits/main?author=rohang326)    | [Rohit De & Rohan Gaikwad Journal](https://docs.google.com/document/d/1c5PIYwjII7IuVlCnkpn-ORHjwLj-XQIN5B2BWxP6aOw/edit?usp=sharing)     |
 
+
+## Week 7
+
+### Logic Gates
+
+| Assignee | Requirements                                                                        | Evidence                                                                                                                                                                                                                                                             |
+| -------- | ----------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Aadit    | Logic Gates(work with Raiden Grp)    | [Commit](https://github.com/aaditgupta21/geniuzes/commit/26bfa8b09ce64aab0d15dff9777753360a1af310#diff-83c0def988e4a71703ece61d81ceb8b2c94956b14e47bc2696572c43f3796afa)                                                                                                                                                                 |
+| Aadit      | Unsigned Addition (work with Raiden group)                  | [Commit](https://github.com/aaditgupta21/geniuzes/commit/78ebc6e91ef14eb80676300eacbde8eabc19dcc0)                                                         |
+| Adi    | Multiply and Divide Shift | [Commit](https://github.com/aaditgupta21/geniuzes/commit/3d759d274a4a1f7d9c8dc46ef457a61295dcbdf9)                                   |
+| Rohan    | Extend/Switch ASCII to Unicode | [Commit](https://github.com/aaditgupta21/geniuzes/commit/d7f94f4b53052437b152ff38011f5e2f73326383) |
+| Rohit | Color Codes | [Commit](https://github.com/aaditgupta21/geniuzes/commit/9e015ecc40219ffecba223bdaaa56ebfed351f7e) |
+| Adi | Signed Addition | Commit|
+
+
+
+
 ## Week 6
 
 ### RGB Project
