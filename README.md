@@ -30,7 +30,7 @@ To be determined!
 | Adi    | Multiply and Divide Shift | [Commit](https://github.com/aaditgupta21/geniuzes/commit/3d759d274a4a1f7d9c8dc46ef457a61295dcbdf9)                                   |
 | Rohan    | Extend/Switch ASCII to Unicode | [Commit](https://github.com/aaditgupta21/geniuzes/commit/d7f94f4b53052437b152ff38011f5e2f73326383) |
 | Rohit | Color Codes | [Commit](https://github.com/aaditgupta21/geniuzes/commit/9e015ecc40219ffecba223bdaaa56ebfed351f7e) |
-| Adi | Signed Addition | Commit|
+| Adi | Signed Addition | Commit(https://github.com/aaditgupta21/geniuzes/commit/5c1d085a379c83b0467159fb2645cee258b58e19)|
 
 
 
