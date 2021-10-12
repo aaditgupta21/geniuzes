@@ -64,6 +64,15 @@ def binaryweek7():
             return render_template("binary-week7.html", bits=int(bits))
     return render_template("binary-week7.html", bits=8)
 
+@app.route('/signedaddition',methods=['GET', 'POST'])
+def signedaddition():
+    if request.form:
+        bits = request.form.get("bits")
+        if int(bits) >= 8:
+            return render_template("signedaddition.html", bits=int(bits))
+    return render_template("signedaddition.html", bits=8)
+
+
 @app.route('/colorcodes',methods=['GET', 'POST'])
 def colorcodes():
     if request.form:
