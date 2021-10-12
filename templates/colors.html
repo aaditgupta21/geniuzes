@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 {% extends "layouts/base.html" %}
+{% set project = "Color Codes" %}
 
 <!-- Search for all the Hack: below for hack-a-thon and mini-lab requirements -->
 <!-- need to adjust Templates to start -->
@@ -21,6 +22,7 @@
 
 {% block meta %}
 <title>Binary page</title>
+
 <script>
     const BITS = '{{ BITS }}'; let max = '{{ MAX }}'; let MAX = parseInt(max, 10);
     // return string with current value of each bit
@@ -32,28 +34,20 @@
         return bits;
     }
 
-    function zeroFill( number, width )
-    {
-        width -= number.toString().length;
-
-        if ( width > 0 )
-        {
-            return new Array( width + (/\./.test( number ) ? 2 : 1) ).join( '0' ) + number;
-        }
-
-        return number + ""; // always return a string
-    }
     function getRGB() {
 
+        R_red = document.getElementById('hexadecimal_1').innerHTML
+        G_green = document.getElementById('hexadecimal_2').innerHTML
+        B_blue = document.getElementById('hexadecimal_3').innerHTML
 
-        R_red = zeroFill(document.getElementById('hexadecimal_1').innerHTML, 2)
-        G_green = zeroFill(document.getElementById('hexadecimal_2').innerHTML,2)
-        B_blue = zeroFill(document.getElementById('hexadecimal_3').innerHTML,2)
+        R_red = String(R_red).padStart(2, '0');
+        G_green = String(G_green).padStart(2, '0');
+        B_blue = String(B_blue).padStart(2, '0');
 
         document.body.style.background = "#"+R_red+G_green+B_blue;
+
         document.getElementById('hexlabel').innerHTML = "Hex Value #"+R_red+G_green+B_blue;
 
-        // alert("#"+R_red+G_green+B_blue)
     }
     // setter for DOM values
     function setConversions(binary,r) {
@@ -147,7 +141,7 @@
 {% endblock %}
 
 {% block body %}
-<h1 style="color: crimson" class="text-center">Logic Gate Lab</h1>
+<h1 style="color: crimson" class="text-center">Color Codes</h1>
 <form action="/colorcodes" id="bits" method="POST">
     <!--  <label for="bits"></label>-->
     <input placeholder="Enter Bits!" name="bits" id="bits" />
