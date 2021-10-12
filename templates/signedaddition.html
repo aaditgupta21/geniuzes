@@ -95,10 +95,16 @@
   }
 
    function decimalsum() {
-      const binary = getBits();
-      const binary1 = getBits2();
-      getdecimalsum(binary, binary1)();
-    }
+    const binary = getBits();
+    const binary1 = getBits2();
+    let value1 = parseInt(binary, 2).toString(10);
+    let value2 = parseInt(binary1, 2).toString(10)
+    let first = value1 - document.getElementById("digit0").value * 256;
+    let second = value2 - document.getElementById("digit10").value * 256;
+    let total = Number(first) + Number(second);
+    document.getElementById("decimalsum").innerHTML = total;
+    console.log(total);
+  }
 
 
     function setConversionsbinarySum(binary, binary1) {
