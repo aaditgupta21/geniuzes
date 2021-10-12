@@ -20,7 +20,7 @@
 <script>
   // return string with current value of each bit
   console.log(document.getElementById("input1").checked);
-  function computeGateValues() {
+  function getValues() {
     logic1 = document.getElementById("input1").checked;
     logic2 = document.getElementById("input2").checked;
     // And Results
@@ -34,8 +34,7 @@
     // Xor results
     xorResults = (logic1 && !logic2) || (!logic1 && logic2);
     // Not results
-    notResults = !(logic1 && logic2);
-
+    notResults = !logic1;
 
     // adding value to textbox
     document.getElementById("and_gate_text").value = andResults;
@@ -47,7 +46,7 @@
   }
 </script>
 
-<input type="button" value="Submit" onclick="computeGateValues()" />
+<input type="button" value="Submit" onclick="getValues()" />
 
 <table style="width: 100%; height: 100%" border="5">
   <tr>
