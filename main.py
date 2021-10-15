@@ -2,6 +2,15 @@
 from flask import Flask, render_template,request
 from algorithm.image import image_data
 import os
+import random
+import requests
+
+from flask import Blueprint, jsonify
+
+api_bp = Blueprint('api', __name__,
+                   url_prefix='/api',
+                   template_folder='templates',
+                   static_folder='static', static_url_path='static/api')
 
 # create a Flask instance
 app = Flask(__name__)
@@ -56,6 +65,41 @@ def binary():
             return render_template("binary.html", bits=int(bits))
     return render_template("binary.html", bits=8)
 
+@app.route('/joke', methods=['GET', 'POST'])
+def joke():
+    url = "https://csp.nighthawkcodingsociety.com/api/joke"
+    response = requests.request("GET", url)
+    return render_template("starter/joke.html", joke=response.json())
+
+
+@app.route('/jokes', methods=['GET', 'POST'])
+def jokes():
+    url = "https://csp.nighthawkcodingsociety.com/api/jokes"
+
+    response = requests.request("GET", url)
+    return render_template("starter/jokes.html", jokes=response.json())
+
+@app.route('/covid19', methods=['GET', 'POST'])
+def covid19():
+    url = "https://corona-virus-world-and-india-data.p.rapidapi.com/api"
+    headers = {
+        'x-rapidapi-key': "dec069b877msh0d9d0827664078cp1a18fajsn2afac35ae063",
+        'x-rapidapi-host': "corona-virus-world-and-india-data.p.rapidapi.com"
+    }
+
+    response = requests.request("GET", url, headers=headers)
+
+    """
+    # uncomment this code to test from terminal
+    world = response.json().get('world_total')
+    countries = response.json().get('countries_stat')
+    print(world['total_cases'])
+    for country in countries:
+        print(country["country_name"])
+    """
+
+    return render_template("starter/covid19.html", stats=response.json())
+
 @app.route('/binaryweek7',methods=['GET', 'POST'])
 def binaryweek7():
     if request.form:
@@ -100,10 +144,10 @@ def rgb():
         grayList.append(img['base64_GRAY'])
     return render_template('rgb.html', images=rawList, colored=colorList, grayed=grayList)
 
-
 if __name__ == "__main__":
     app.run(
         debug=True,
         host="127.0.0.1",
         port=5000
     ),
+

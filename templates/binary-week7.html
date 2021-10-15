@@ -20,7 +20,7 @@
 {% set msgTurnOff = "Turn Off" %}
 
 {% block meta %}
-<title>Binary page</title>
+<title>Binary Week 7</title>
 <script>
   const BITS = "{{ BITS }}";
   let max = "{{ MAX }}";
@@ -60,17 +60,13 @@
       10
     );
     if (document.getElementById("decimal").innerHTML >= 127) {
-      document.getElementById("unicode").innerHTML = String.fromCharCode(
-        binary,
-        2
-      );
+      document.getElementById("unicode").innerHTML = String.fromCharCode(binary, 2);
       document.getElementById("ascii").innerHTML = "";
     } else {
       document.getElementById("ascii").innerHTML;
     }
     if (document.getElementById("decimal").innerHTML <= 127) {
-      document.getElementById("ascii").innerHTML =
-        String.fromCharCode(decimal2);
+      document.getElementById("ascii").innerHTML = String.fromCharCode(decimal2);
       document.getElementById("unicode").innerHTML = "";
     } else {
       document.getElementById("unicode").innerHTML = String.fromCharCode(
