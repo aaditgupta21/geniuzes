@@ -53,7 +53,7 @@ To be determined!
 | Rohit/Rohan | Complete Unit 3.3 and 3.4 Notes and Quiz w/ corrections if needed. | [Rohit De & Rohan Gaikwad Journal](https://docs.google.com/document/d/1c5PIYwjII7IuVlCnkpn-ORHjwLj-XQIN5B2BWxP6aOw/edit?usp=sharing)     | 2/2              |
 | Adi/Aadit   | Complete Unit 3.3 and 3.4 Notes and Quiz w/ corrections if needed. | [Aadit Gupta & Adi Khandelwal Journal](https://docs.google.com/document/d/18m2DBuJrDUOoWUPMxL7_-LjTvGnrwFLhQMYxaZReocM/edit?usp=sharing) | 2/2              |
 
-#### [Documenation](https://docs.google.com/document/d/19AXaWuXG6orp8M8j5ZbO4wLn8I68RCdDkyOd4c6JR94/edit) for code organization of our project
+#### Documentation for code organization of our project can be found in journal
 
 ## Week 5
 
