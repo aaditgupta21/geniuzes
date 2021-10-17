@@ -2,6 +2,9 @@
 from flask import Flask, render_template,request
 from algorithm.image import image_data
 import os
+import requests
+from api.webapi import api_bp
+
 
 # create a Flask instance
 app = Flask(__name__)
@@ -100,6 +103,34 @@ def rgb():
         grayList.append(img['base64_GRAY'])
     return render_template('rgb.html', images=rawList, colored=colorList, grayed=grayList)
 
+
+
+@app.route('/car', methods=['GET', 'POST'])
+def car():
+    response = requests.request("GET", url)
+    return render_template("car.html", car=response.json())
+
+
+@app.route('/cars', methods=['GET', 'POST'])
+def cars():
+    response = requests.request("GET", url)
+    return render_template("cars.html", cars=response.json())
+
+
+@app.route('/covid19', methods=['GET', 'POST'])
+def covid19():
+    url = "https://corona-virus-world-and-india-data.p.rapidapi.com/api"
+    headers = {
+        'x-rapidapi-key': "dec069b877msh0d9d0827664078cp1a18fajsn2afac35ae063",
+        'x-rapidapi-host': "corona-virus-world-and-india-data.p.rapidapi.com"
+    }
+
+    response = requests.request("GET", url, headers=headers)
+
+    return render_template("covid19.html", stats=response.json())
+
+
+app.register_blueprint(api_bp)
 
 if __name__ == "__main__":
     app.run(
