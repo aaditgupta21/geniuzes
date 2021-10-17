@@ -107,12 +107,14 @@ def rgb():
 
 @app.route('/car', methods=['GET', 'POST'])
 def car():
+    url = "http://localhost:5000/api/car"
     response = requests.request("GET", url)
     return render_template("car.html", car=response.json())
 
 
 @app.route('/cars', methods=['GET', 'POST'])
 def cars():
+    url = "http://localhost:5000/api/cars"
     response = requests.request("GET", url)
     return render_template("cars.html", cars=response.json())
 
