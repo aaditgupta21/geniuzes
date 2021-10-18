@@ -30,7 +30,10 @@ To be determined!
 | Rohit | Color Codes | [Commit](https://github.com/aaditgupta21/geniuzes/commit/9f62dc1213999e0646322d825ec926a3b127e222) |
 | Adi | page to display new toys using iterations | [Commit](https://github.com/aaditgupta21/geniuzes/commit/e4172b94d04c35569902188a3fe51e559f169eb4) |
 
-
+## N@TM New Ideas
+- Get Authentication to work but have it only be matching pictures because little kids
+- Have a currency or points system
+- Deploy our project on cloud machine
 ## Week 7
 
 ### Logic Gates
