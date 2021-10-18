@@ -118,6 +118,18 @@ def cars():
     response = requests.request("GET", url)
     return render_template("cars.html", cars=response.json())
 
+@app.route('/mcolor', methods=['GET', 'POST'])
+def mcolor():
+    url = "http://localhost:5000/api/mcolor"
+    response = requests.request("GET", url)
+    return render_template("mcolor.html", mcolor=response.json())
+
+
+@app.route('/mcolors', methods=['GET', 'POST'])
+def mcolors():
+    url = "http://localhost:5000/api/mcolors"
+    response = requests.request("GET", url)
+    return render_template("mcolors.html", mcolors=response.json())
 
 @app.route('/covid19', methods=['GET', 'POST'])
 def covid19():

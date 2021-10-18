@@ -1,7 +1,7 @@
 import random
 
 from flask import Blueprint, jsonify
-
+# webapi
 api_bp = Blueprint('api', __name__,
                    url_prefix='/api',
                    template_folder='templates',
@@ -45,3 +45,45 @@ def get_cars():
 
 if __name__ == "__main__":
     print(random.choice(car_list))
+
+
+mcolors = []
+mcolor_list = [
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Solid_blue.svg/225px-Solid_blue.svg.png",
+    "https://upload.wikimedia.org/wikipedia/en/8/8b/Purplecom.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/8/89/Alizarin_crimson_%28color%29.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/d/d0/Color-yellow.JPG",
+    "https://upload.wikimedia.org/wikipedia/commons/e/ee/Flag_Admirals_of_the_Blue_Squadron_Royal_Navy.png",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Flag_of_Libya_%281977%E2%80%932011%29.svg/300px-Flag_of_Libya_%281977%E2%80%932011%29.svg.png",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Solid_green.svg/1024px-Solid_green.svg.png"
+
+]
+
+
+def _find_next_id():
+    return max(mcolors["id"] for mcolor in mcolors) + 1
+
+
+def _init_mcolors():
+    id = 1
+    for mcolor in mcolor_list:
+        mcolors.append({"id": id, "mcolor": mcolor, "haha": 0, "boohoo": 0})
+        id += 1
+
+
+@api_bp.route('/mcolor')
+def get_mcolor():
+    if len(mcolors) == 0:
+        _init_mcolors()
+    return jsonify(random.choice(mcolors))
+
+
+@api_bp.route('/mcolors')
+def get_mcolors():
+    if len(mcolors) == 0:
+        _init_mcolors()
+    return jsonify(mcolors)
+
+
+if __name__ == "__main__":
+    print(random.choice(mcolor_list))
