@@ -32,7 +32,7 @@ To be determined!
 | Rohit | Color Codes | [Commit](https://github.com/aaditgupta21/geniuzes/commit/9e015ecc40219ffecba223bdaaa56ebfed351f7e) |
 | Adi | Signed Addition | [Commit](https://github.com/aaditgupta21/geniuzes/commit/5c1d085a379c83b0467159fb2645cee258b58e19)|
 
-
+https://www.youtube.com/playlist?list=PLT0pUL77e5RGf9oXqowMgMzQPfyhaC3qr
 
 
 ## Week 6
