@@ -122,7 +122,11 @@ def cars():
 def mcolor():
     url = "http://localhost:5000/api/mcolor"
     response = requests.request("GET", url)
-    return render_template("mcolor.html", mcolor=response.json())
+    if request.form:
+        bits = request.form.get("bits")
+        if int(bits) >= 8:
+            return render_template("colors.html", bits=int(bits))
+    return render_template("mcolor.html", mcolor=response.json(),  bits=8)
 
 
 @app.route('/mcolors', methods=['GET', 'POST'])
