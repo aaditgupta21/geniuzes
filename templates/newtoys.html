@@ -1,0 +1,18 @@
+{% extends "layouts/base.html" %} {% block content %}
+
+<div class="container; center-block" style="color: crimson" <div class="row">
+  <h1 style="font-size: 70px">New Toys</h1>
+</div>
+<div style="color: indianred" <div class="row">
+  <h4 style="text-align: center">Checkout the latest new toys out there!</h4>
+</div>
+
+{% set images =
+["https://www.cnet.com/a/img/-qrd4awRVDn488rVBFRlSwhx7ds=/1200x675/2020/10/28/5a601f4a-06c8-4374-b10d-9f07fe183390/babyyoda-target-1.png",
+"https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1603060988-41aKZpEZ2OL.jpg",
+"https://www.lego.com/cdn/cs/set/assets/blt892f38a4fd55edeb/75257.jpg?fit=bounds&format=jpg&quality=80&width=1500&height=1500&dpr=1",
+"https://m.media-amazon.com/images/I/91oKfKVZjHL._AC_SL1500_.jpg",
+"https://images.heb.com/is/image/HEBGrocery/001572315"] %} {% for
+image in images %}
+<img src="{{ image }}" width="400" height="300" />
+{% endfor %} {% endblock %}
