@@ -277,6 +277,19 @@
         document.getElementById("butt" + i).innerHTML = "{{ msgTurnOn }}";
       }
     }
+    function signedAddition(){
+      for (let i = 0; i <binary.length ; i++) {
+        let digit = binary.substr(i, 1);
+        if (digit === "1") {
+          digit=0;
+        } else {
+          digit=1;
+        }
+      }
+    }
+
+
+
   }
 </script>
 {% endblock %} {% block content %}
@@ -352,71 +365,80 @@
       </table>
     </div>
 
-    <div class="col-8">
-      <table class="table">
-        <tr id="table">
-          <th>Inverse(Binary)</th>
-          <th>Inverse(Decimal)</th>
-        </tr>
-        <tr>
-          <td id="binary1">00000000</td>
-          <td id="decimal1">0</td>
-        </tr>
-      </table>
-    </div>
 
-    <div class="col-12">
-      <table class="table">
-        <tr>
-          {% for i in range(BITS) %}
-          <td>
-            <img
-              class="img-responsive py-3"
-              id="bulb1{{i}}"
-              src="{{ imgBulbOff }}"
-              alt=""
-              width="40"
-              height="Auto"
-            />
-            <button type="button" id="butt1{{i}}" onclick="toggleBit1('{{i}}')">
-              {{ msgTurnOn }}
-            </button>
-          </td>
-          {% endfor %}
-        </tr>
-        <tr>
-          {% for i in range(BITS) %}
-          <td>
-            <input type="text" id="digit1{{i}}" value="0" size="1" readonly />
-          </td>
-          {% endfor %}
-        </tr>
-      </table>
-    </div>
-    <div class="col-8">
-      <table class="table">
-        <tr>
-          <th>
-            <input
-              type="button"
-              value="Calculate Binary Sum(Inverse)"
-              onclick="binarysum()"
-            />
-          </th>
-          <th>
-            <input
-              type="button"
-              value="Calculate Decimal Sum(Inverse)"
-              onclick="decimalsum()"
-            />
-          </th>
-        </tr>
-        <tr>
-          <td id="binarysum">00000000</td>
-          <td id="decimalsum">0</td>
-        </tr>
-      </table>
-    </div>
+
+<!--    -->
+<!--    <div class="col-8">-->
+<!--      <table class="table">-->
+<!--        <tr id="table">-->
+<!--          <th>Inverse(Binary)</th>-->
+<!--          <th>Inverse(Decimal)</th>-->
+<!--        </tr>-->
+<!--        <tr>-->
+<!--          <td id="binary1">00000000</td>-->
+<!--          <td id="decimal1">0</td>-->
+<!--        </tr>-->
+<!--      </table>-->
+<!--    </div>-->
+
+<!--    <div class="col-12">-->
+<!--      <table class="table">-->
+<!--        <tr>-->
+<!--          {% for i in range(BITS) %}-->
+<!--          <td>-->
+<!--            <img-->
+<!--              class="img-responsive py-3"-->
+<!--              id="bulb1{{i}}"-->
+<!--              src="{{ imgBulbOff }}"-->
+<!--              alt=""-->
+<!--              width="40"-->
+<!--              height="Auto"-->
+<!--            />-->
+<!--            <button type="button" id="butt1{{i}}" onclick="toggleBit1('{{i}}')">-->
+<!--              {{ msgTurnOn }}-->
+<!--            </button>-->
+<!--          </td>-->
+<!--          {% endfor %}-->
+<!--        </tr>-->
+<!--        <tr>-->
+<!--          {% for i in range(BITS) %}-->
+<!--          <td>-->
+<!--            <input type="text" id="digit1{{i}}" value="0" size="1" readonly />-->
+<!--          </td>-->
+<!--          {% endfor %}-->
+<!--        </tr>-->
+<!--      </table>-->
+<!--    </div>-->
+<!--    <div class="col-8">-->
+<!--      <table class="table">-->
+<!--        <tr>-->
+<!--          <th>-->
+<!--            <input-->
+<!--              type="button"-->
+<!--              value="Calculate Binary Sum(Inverse)"-->
+<!--              onclick="binarysum()"-->
+<!--            />-->
+<!--          </th>-->
+<!--          <th>-->
+<!--            <input-->
+<!--              type="button"-->
+<!--              value="Calculate Decimal Sum(Inverse)"-->
+<!--              onclick="decimalsum()"-->
+<!--            />-->
+<!--          </th>-->
+<!--        </tr>-->
+<!--        <tr>-->
+<!--          <td id="binarysum">00000000</td>-->
+<!--          <td id="decimalsum">0</td>-->
+<!--        </tr>-->
+<!--      </table>-->
+<!--    </div>-->
+
+
+
+
+
+
   </div>
 </div>
 {% endblock %}
