@@ -27,7 +27,7 @@ To be determined!
 | -------- | --------------------------- | ------------------------- |
 | Aadit    | API with random cars    | [Commit](https://github.com/aaditgupta21/geniuzes/commit/d53f2718ffa83164013da99058193264ae68b607) |                                        | Adi    | page to display new toys using iterations | [Commit](https://github.com/aaditgupta21/geniuzes/commit/e4172b94d04c35569902188a3fe51e559f169eb4) |
 | Rohan    | homepage | [Commit](https://github.com/aaditgupta21/geniuzes/commit/5fb3ba38b9de6be9c3b7e995178df7b66387e7e3) |
-| Rohit | Color Codes | [Commit](https://github.com/aaditgupta21/geniuzes/commit/9f62dc1213999e0646322d825ec926a3b127e222) |
+| Rohit | use color codes to making matching activity | [Commit](https://github.com/aaditgupta21/geniuzes/commit/9f62dc1213999e0646322d825ec926a3b127e222) |
 | Adi | page to display new toys using iterations | [Commit](https://github.com/aaditgupta21/geniuzes/commit/e4172b94d04c35569902188a3fe51e559f169eb4) |
 
 ## N@TM New Ideas
