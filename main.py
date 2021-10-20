@@ -177,6 +177,15 @@ def newtoys():
 def aboutus():
     return render_template("aboutus.html")
 
+@app.route('/signup')
+def signup():
+    return render_template("signup.html")
+
+@app.route('/login')
+def login():
+    return render_template("login.html")
+
+
 app.register_blueprint(api_bp)
 
 if __name__ == "__main__":
