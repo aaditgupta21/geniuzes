@@ -27,6 +27,15 @@ body {
   background-color: var(--white);
   color: var(--black);
 }
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+button{
+  margin: 0 auto;
+}
 
 .dark-mode {
   background-color: var(--white);
@@ -37,9 +46,7 @@ body {
   background-image: linear-gradient(to left, green, yellow, red);
   -webkit-background-clip: text;
   color: transparent;
-}
-body {
-  class="rainbow-text"
+  text-align: center;
 }
 
 h1 {
@@ -126,4 +133,5 @@ p {
 
 title {
   color: crimson;
+  text-align: center;
 }
