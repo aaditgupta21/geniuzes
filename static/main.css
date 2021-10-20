@@ -34,9 +34,12 @@ body {
 }
 
 .rainbow-text {
-  background-image: linear-gradient(to right, red, orange, yellow, green, blue, violet);
+  background-image: linear-gradient(to left, green, yellow, red);
   -webkit-background-clip: text;
   color: transparent;
+}
+body {
+  class="rainbow-text"
 }
 
 h1 {
