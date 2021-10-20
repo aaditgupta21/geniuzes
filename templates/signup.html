@@ -1,0 +1,80 @@
+{% extends "layouts/base.html" %} {% block content %}
+
+<body>
+  <div class="container; center-block" style="color: crimson" <div class="row">
+    <h1 style="font-size: 70px">Sign Up</h1>
+  </div>
+  <div style="color: indianred" <div class="row">
+    <h4 style="text-align: center">Signup Here Now!</h4>
+  </div>
+
+  <form id="formEE">
+    <br />
+    <input
+      style="text-align: center"
+      type="text"
+      id="email"
+      name="email"
+      placeholder="Email"
+      class="form-control"
+    />
+    <br />
+    <input
+      style="text-align: center"
+      type="password"
+      id="password"
+      name="password"
+      placeholder="Password"
+      class="form-control"
+    />
+    <br />
+    <input
+      style="text-align: center"
+      class="btn btn-primary loginbtn"
+      style="margin-bottom: 1vh"
+      type="submit"
+      value="Sign Up"
+    />
+  </form>
+  <script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-app.js"></script>
+
+    <!-- Add Firebase products that you want to use -->
+    <script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-firestore.js"></script>
+
+    <script>
+      const config = {
+        apiKey: "AIzaSyACFmlboOdQnFQbHVabfaq1VPiC63hVxmQ",
+        authDomain: "playground-fba66.firebaseapp.com",
+        projectId: "playground-fba66",
+        storageBucket: "playground-fba66.appspot.com",
+        messagingSenderId: "497731525881",
+        appId: "1:497731525881:web:a30edc4e642cbf50c39628",
+      };
+      if (firebase.apps.length === 0) {
+        firebase.initializeApp(config);
+        console.log("worked");
+      }
+      const auth = firebase.auth();
+      var form = document.getElementById("formEE");
+      var submit = document.getElementById("submit");
+
+      form.onsubmit = function (e) {
+        e.preventDefault();
+        const email = form["email"].value;
+        const password = form["password"].value;
+        auth.createUserWithEmailAndPassword(email, password).then(function (){
+          console.log('signed up successfully')
+          window.location.pathname = '/login'
+        }).catch((err) => {
+          if (err.code === "auth/email-already-in-use") {
+            alert("Email is already in use");
+          } else if (err.code === "auth/invalid-email") {
+            alert("Email is formatted incorrectly");
+          } else {
+            alert(err.code);
+          }
+        });
+      };
+    </script>
+</body> {% endblock %}
