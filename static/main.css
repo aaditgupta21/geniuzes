@@ -35,7 +35,8 @@ body {
 
 h1 {
   color: crimson;
-  font-size: 30px;
+  text-align: center;
+  font-size: 60px;
   font-family: 'Inter', sans-serif;
 }
 

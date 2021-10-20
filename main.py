@@ -152,6 +152,10 @@ def covid19():
 def newtoys():
     return render_template("newtoys.html")
 
+@app.route('/aboutus')
+def aboutus():
+    return render_template("aboutus.html")
+
 app.register_blueprint(api_bp)
 
 if __name__ == "__main__":
