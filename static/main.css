@@ -33,6 +33,12 @@ body {
   color: var(--black);
 }
 
+.rainbow-text {
+  background-image: linear-gradient(to right, red, orange, yellow, green, blue, violet);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
 h1 {
   color: crimson;
   text-align: center;
