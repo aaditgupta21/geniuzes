@@ -8,17 +8,32 @@
 
 To be determined!
 
-- [Team Scrum Board](https://github.com/aaditgupta21/flask_portfolio/projects/1)
-- [Team Insight Graphs](https://github.com/aaditgupta21/flask_portfolio/graphs/contributors)
+- [Team Scrum Board](https://github.com/aaditgupta21/geniuzes/projects/1)
+- [Team Insight Graphs](https://github.com/aaditgupta21/geniuzes/graphs/contributors)
 
 | Contributor    | GitHub                                           | Tasks                                                           | Scrum Board                                                               | Commit                                                                                      | Journal Links                                                                                                                            |
 | -------------- | ------------------------------------------------ | --------------------------------------------------------------- | ------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
-| Aadit Gupta    | [@aaditgupta21](https://github.com/aaditgupta21) | [Tasks](https://github.com/aaditgupta21/flask_portfolio/issues) | [Scrum Board](https://github.com/aaditgupta21/flask_portfolio/projects/1) | [Commits](https://github.com/aaditgupta21/flask_portfolio/commits/main?author=aaditgupta21) | [Aadit Gupta & Adi Khandelwal Journal](https://docs.google.com/document/d/18m2DBuJrDUOoWUPMxL7_-LjTvGnrwFLhQMYxaZReocM/edit?usp=sharing) |
-| Adi Khandelwal | [@Adi-K-Coding](https://github.com/Adi-K-Coding) | [Tasks](https://github.com/aaditgupta21/flask_portfolio/issues) | [Scrum Board](https://github.com/aaditgupta21/flask_portfolio/projects/1) | [Commits](https://github.com/aaditgupta21/flask_portfolio/commits/main?author=Adi-K-Coding) | [Aadit Gupta & Adi Khandelwal Journal](https://docs.google.com/document/d/18m2DBuJrDUOoWUPMxL7_-LjTvGnrwFLhQMYxaZReocM/edit?usp=sharing) |
-| Rohit De       | [@rohitd3](https://github.com/rohitd3)           | [Tasks](https://github.com/aaditgupta21/flask_portfolio/issues) | [Scrum Board](https://github.com/aaditgupta21/flask_portfolio/projects/1) | [Commits](https://github.com/aaditgupta21/flask_portfolio/commits/main?author=rohitd3)      | [Rohit De & Rohan Gaikwad Journal](https://docs.google.com/document/d/1c5PIYwjII7IuVlCnkpn-ORHjwLj-XQIN5B2BWxP6aOw/edit?usp=sharing)     |
-| Rohan Gaikwad  | [@rohang326](https://github.com/rohang326)       | [Tasks](https://github.com/aaditgupta21/flask_portfolio/issues) | [Scrum Board](https://github.com/aaditgupta21/flask_portfolio/projects/1) | [Commits](https://github.com/aaditgupta21/flask_portfolio/commits/main?author=rohang326)    | [Rohit De & Rohan Gaikwad Journal](https://docs.google.com/document/d/1c5PIYwjII7IuVlCnkpn-ORHjwLj-XQIN5B2BWxP6aOw/edit?usp=sharing)     |
+| Aadit Gupta    | [@aaditgupta21](https://github.com/aaditgupta21) | [Tasks](https://github.com/aaditgupta21/geniuzes/issues) | [Scrum Board](https://github.com/aaditgupta21/geniuzes/projects/1) | [Commits](https://github.com/aaditgupta21/geniuzes/commits/main?author=aaditgupta21) | [Aadit Gupta & Adi Khandelwal Journal](https://docs.google.com/document/d/18m2DBuJrDUOoWUPMxL7_-LjTvGnrwFLhQMYxaZReocM/edit?usp=sharing) |
+| Adi Khandelwal | [@Adi-K-Coding](https://github.com/Adi-K-Coding) | [Tasks](https://github.com/aaditgupta21/geniuzes/issues) | [Scrum Board](https://github.com/aaditgupta21/geniuzes/projects/1) | [Commits](https://github.com/aaditgupta21/geniuzes/commits/main?author=Adi-K-Coding) | [Aadit Gupta & Adi Khandelwal Journal](https://docs.google.com/document/d/18m2DBuJrDUOoWUPMxL7_-LjTvGnrwFLhQMYxaZReocM/edit?usp=sharing) |
+| Rohit De       | [@rohitd3](https://github.com/rohitd3)           | [Tasks](https://github.com/aaditgupta21/geniuzes/issues) | [Scrum Board](https://github.com/aaditgupta21/geniuzes/projects/1) | [Commits](https://github.com/aaditgupta21/geniuzes/commits/main?author=rohitd3)      | [Rohit De & Rohan Gaikwad Journal](https://docs.google.com/document/d/1c5PIYwjII7IuVlCnkpn-ORHjwLj-XQIN5B2BWxP6aOw/edit?usp=sharing)     |
+| Rohan Gaikwad  | [@rohang326](https://github.com/rohang326)       | [Tasks](https://github.com/aaditgupta21/geniuzes/issues) | [Scrum Board](https://github.com/aaditgupta21/geniuzes/projects/1) | [Commits](https://github.com/aaditgupta21/geniuzes/commits/main?author=rohang326)    | [Rohit De & Rohan Gaikwad Journal](https://docs.google.com/document/d/1c5PIYwjII7IuVlCnkpn-ORHjwLj-XQIN5B2BWxP6aOw/edit?usp=sharing)     |
 
 
+## Week 8
+
+### PBL
+
+| Assignee | Requirements | Evidence                                                                                                                                             
+| -------- | --------------------------- | ------------------------- |
+| Aadit    | API with random cars    | [Commit](https://github.com/aaditgupta21/geniuzes/commit/d53f2718ffa83164013da99058193264ae68b607) |                                        | Adi    | page to display new toys using iterations | [Commit](https://github.com/aaditgupta21/geniuzes/commit/e4172b94d04c35569902188a3fe51e559f169eb4) |
+| Rohan    | homepage | [Commit](https://github.com/aaditgupta21/geniuzes/commit/5fb3ba38b9de6be9c3b7e995178df7b66387e7e3) |
+| Rohit | use color codes to making matching activity | [Commit](https://github.com/aaditgupta21/geniuzes/commit/9f62dc1213999e0646322d825ec926a3b127e222) |
+| Adi | page to display new toys using iterations | [Commit](https://github.com/aaditgupta21/geniuzes/commit/e4172b94d04c35569902188a3fe51e559f169eb4) |
+
+## N@TM New Ideas
+- Get Authentication to work but have it only be matching pictures because little kids
+- Have a currency or points system
+- Deploy our project on cloud machine
 ## Week 7
 
 ### Logic Gates

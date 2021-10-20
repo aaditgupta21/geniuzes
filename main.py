@@ -84,6 +84,15 @@ def colorcodes():
             return render_template("colors.html", bits=int(bits))
     return render_template("colors.html", bits=8)
 
+@app.route('/matchcolors',methods=['GET', 'POST'])
+def matchcolors():
+    if request.form:
+        bits = request.form.get("bits")
+        if int(bits) >= 8:
+            return render_template("matchcolors.html", bits=int(bits))
+    return render_template("matchcolors.html", bits=8)
+
+
 @app.route('/week0journal/')
 def week0journal():
     return render_template("week0journal.html")
@@ -127,6 +136,18 @@ def mcolor():
         if int(bits) >= 8:
             return render_template("colors.html", bits=int(bits))
     return render_template("mcolor.html", mcolor=response.json(),  bits=8)
+
+# @app.route('/createcolor', methods=['GET', 'POST'])
+# def createcolor():
+#     url = "http://localhost:5000/api/createcolor"
+#     response = requests.request("GET", url)
+#     return render_template("createcolor.html", createcolor=response.json())
+#
+# @app.route('/createcolors', methods=['GET', 'POST'])
+# def createcolors():
+#     url = "http://localhost:5000/api/createcolors"
+#     response = requests.request("GET", url)
+#     return render_template("createcolors.html", createcolors=response.json())
 
 
 @app.route('/mcolors', methods=['GET', 'POST'])
