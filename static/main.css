@@ -88,6 +88,7 @@ a {
 .btn:link,
 .btn:visited {
   text-transform: uppercase;
+  font-family: Inter;
   text-decoration: none;
   padding: 15px 40px;
   display: inline-block;
