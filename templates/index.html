@@ -1,25 +1,21 @@
 {% extends "layouts/base.html" %} {% block content %}
 <body>
 <div>
-    <h1 class="rainbow-text">Playground!</h1>
+    <h1 style="font-size: 70px" class="rainbow-text">Playground!</h1>
 </div>
 
 <div class="rainbow-text">
-    <h4 style="text-align: center; font-size: 30px" >A site for kids to learn!</h4>
+    <h4 style="text-align: center; font-size: 40px">A site for kids to learn!</h4>
 </div>
 
-<img src="\static\playground3.png" alt="cartoonPlaygound" class="center"/>
-
+<img src="\static\playground.jpg" alt="cartoonPlaygound" class="center"/>
 
 <div class="rainbow-text">
-    <h4 style="text-align: center">A Little About Our Website:</h4>
-
+    <h4 style="text-align: center; font-size: 40px">A Little About Our Website:</h4>
 </div>
-
 
 <div class="rainbow-text" >
     <h5 style="text-align: center">Playground is an interactive and engaging website that challenges young minds</h5>
-
 </div>
 
 <div class="rainbow-text" >
@@ -41,20 +37,4 @@
 <!--    }-->
 <!--</style>-->
 
-{% endblock %}
-{% block background %}
-<script src="{{ url_for('static', filename='three.r119.min.js') }}"></script>
-<script src="{{ url_for('static', filename='vanta.halo.min.js') }}"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/vanta@0.5.21/dist/vanta.waves.min.js"></script>
-<script>
-    VANTA.WAVES({
-        el: "body", // element selector string or DOM object reference
-        color: 0xdc143c,
-        waveHeight: 20,
-        shininess: 50,
-        waveSpeed: 1.5,
-        zoom: 0.75,
-    });
-</script>
 {% endblock %}
