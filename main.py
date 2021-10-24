@@ -113,7 +113,6 @@ def rgb():
     return render_template('rgb.html', images=rawList, colored=colorList, grayed=grayList)
 
 
-
 @app.route('/car', methods=['GET', 'POST'])
 def car():
     url = "http://localhost:5000/api/car"
@@ -136,6 +135,18 @@ def mcolor():
         if int(bits) >= 8:
             return render_template("colors.html", bits=int(bits))
     return render_template("mcolor.html", mcolor=response.json(),  bits=8)
+
+@app.route('/addition', methods=['GET', 'POST'])
+def addition():
+    url = "http://localhost:5000/api/addition"
+    response = requests.request("GET", url)
+    return render_template("addition.html", addition=response.json())
+
+@app.route('/additions', methods=['GET', 'POST'])
+def additions():
+    url = "http://localhost:5000/api/additions"
+    response = requests.request("GET", url)
+    return render_template("additions.html", additions=response.json())
 
 # @app.route('/createcolor', methods=['GET', 'POST'])
 # def createcolor():
