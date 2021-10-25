@@ -6,21 +6,21 @@
 
     <div class="center-block" style="margin: 2% 5% 5%; font-family: gilroy,serif;">
         <div class="col-12" style="text-align: center;">
-            <h1><strong>Easy Math! </strong></h1>
+            <h1><strong style="font-size: 80px; color: #00A5CF">Easy Math! </strong></h1>
         </div>
 
 
         <!-- Input and Content -->
-        <div style="text-align: center; color: #00A5CF; font-size: 70px">
+        <div style="text-align: center; font-size: 70px">
             <div class="col-md">
-                <p class="setup"><strong>{{addition.addition}}</strong></p>
+                <p class="setup"><strong style="color: #00A5CF">{{addition.addition}}</strong></p>
             </div>
         </div>
         <form action={{url_for('addition')}}>
             <button>Refresh!</button>
         </form>
     </div>
-    <table style="margin: 2%">
+    <table style="margin: 2%; text-align: center">
         <tr>
             <th>JSON Data</th>
         </tr>
