@@ -7,12 +7,70 @@
   <h4 style="text-align: center">Checkout the latest new toys out there!</h4>
 </div>
 
-{% set images =
-["https://www.cnet.com/a/img/-qrd4awRVDn488rVBFRlSwhx7ds=/1200x675/2020/10/28/5a601f4a-06c8-4374-b10d-9f07fe183390/babyyoda-target-1.png",
+<br>
+<script>
+
+  function toytypeCT() {
+    const imageCR = ["https://m.media-amazon.com/images/I/81IjJI3M7SL._AC_SL1500_.jpg"];
+     for(let i=0;i<imageCR.length;i++){
+       const img = document.createElement('img');
+       img.src=imgs[i];
+     }
+  }
+
+  function toytypeT() {
+
+  }
+  function toytype34() {
+
+  }
+  function toytype56() {
+
+  }
+
+
+</script>
+<input type="button" onclick="toytypeCT()" value="Toddler Toys"/>
+<input type="button" onclick="toytypeT()" value="Toys for 3-4 Years Old"/>
+<input type="button" onclick="toytype34()" value="Toys for 5-6 Years Old"/>
+<input type="button" onclick="toytype56()" value="Creative Thinking"/>
+
+
+
+<!--<button type="button" onclick="alert('Warning Test')">Warning</button>-->
+{% set imagesToddlers =
+["https://m.media-amazon.com/images/I/81IjJI3M7SL._AC_SL1500_.jpg",
 "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1603060988-41aKZpEZ2OL.jpg",
+"https://m.media-amazon.com/images/I/81+BZzxBkKL._AC_SL1500_.jpg",
+"https://i5.walmartimages.com/asr/50250727-4357-441d-9b85-f251b0036cec.5800e03cef5137ac7a5233862da3fa22.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFFg",
+"https://images.heb.com/is/image/HEBGrocery/001572315",
+
+]%}
+
+{% set images56 =
+["https://www.cnet.com/a/img/-qrd4awRVDn488rVBFRlSwhx7ds=/1200x675/2020/10/28/5a601f4a-06c8-4374-b10d-9f07fe183390/babyyoda-target-1.png",
+"https://i5.walmartimages.com/asr/3c58b072-80c6-4fe4-bd77-a3b8023a733a_3.d88f70ff6884621607fa48df1cda78b0.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
 "https://www.lego.com/cdn/cs/set/assets/blt892f38a4fd55edeb/75257.jpg?fit=bounds&format=jpg&quality=80&width=1500&height=1500&dpr=1",
 "https://m.media-amazon.com/images/I/91oKfKVZjHL._AC_SL1500_.jpg",
-"https://images.heb.com/is/image/HEBGrocery/001572315"] %} {% for
-image in images %}
-<img src="{{ image }}" width="400" height="300" />
-{% endfor %} {% endblock %}
+"https://images.heb.com/is/image/HEBGrocery/001572315",
+
+] %}
+
+{% set imagesCreativeThinking =
+["https://m.media-amazon.com/images/I/71aYQI5JwBL._AC_SL1500_.jpg",
+"https://m.media-amazon.com/images/I/515kAp4XiRL._AC_SL1000_.jpg",
+"https://www.lego.com/cdn/cs/set/assets/blt892f38a4fd55edeb/75257.jpg?fit=bounds&format=jpg&quality=80&width=1500&height=1500&dpr=1",
+"https://m.media-amazon.com/images/I/91oKfKVZjHL._AC_SL1500_.jpg",
+"https://m.media-amazon.com/images/I/81dIEAgoytL._AC_SL1500_.jpg"
+] %}
+
+
+{% set imagesToddlers =
+["https://m.media-amazon.com/images/I/81IjJI3M7SL._AC_SL1500_.jpg",
+"https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1603060988-41aKZpEZ2OL.jpg",
+"https://m.media-amazon.com/images/I/81+BZzxBkKL._AC_SL1500_.jpg",
+"https://i5.walmartimages.com/asr/50250727-4357-441d-9b85-f251b0036cec.5800e03cef5137ac7a5233862da3fa22.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFFg",
+"https://images.heb.com/is/image/HEBGrocery/001572315",
+
+]%}
+{% endblock %}
