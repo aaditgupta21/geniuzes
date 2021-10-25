@@ -156,11 +156,53 @@ table,
 td,
 th {
   color: black;
+  border-radius: 20%;
+  border-color: black;
 }
+#cars {
+  position: absolute;
+  left: 8%;
+  top: 25%;
+}
+
+#playground {
+  position: absolute;
+  left: 32%;
+}
+
+#pinkbox {
+  position: absolute;
+  left: 8%;
+  top: 25%;
+  border: 5px solid black;
+}
+
+#tealbox {
+  position: absolute;
+  left: 8%;
+  top: 65%;
+  border: 5px solid black;
+}
+
+#cornflowerbox {
+  position: absolute;
+  right: 8%;
+  top: 25%;
+  border: 5px solid black;
+}
+
+#limebox {
+  position: absolute;
+  right: 8%;
+  top: 65%;
+  border: 5px solid black;
+}
+
+
 p {
   font-size: 30px;
   font-family: 'Peralta', cursive;
-  color: #00A5CF;
+  color: white;
 }
 
 title {
