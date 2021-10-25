@@ -33,6 +33,7 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  border-bottom: black;
   width: 50%;
 }
 button{
@@ -54,12 +55,41 @@ h1 {
   text-align: center;
   font-size: 100px;
   font-family: 'Peralta', cursive;
-  color: #577399;
+  color: #00A5CF;
 }
 
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  border: 3px solid green;
+}
+
+.right {
+  position: absolute;
+  right: 0px;
+  width: 300px;
+  border: 3px solid #73AD21;
+  padding: 10px;
+}
 title {
   text-align: center;
   font-size: 80px;
+}
+
+div {
+  width: 320px;
+  padding: 10px;
+  border: 5px white;
+  margin: 0;
+}
+
+.img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
 }
 
 a {
@@ -128,7 +158,9 @@ th {
   color: black;
 }
 p {
-  color: white;
+  font-size: 30px;
+  font-family: 'Peralta', cursive;
+  color: #00A5CF;
 }
 
 title {
