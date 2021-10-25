@@ -6,7 +6,7 @@
 
 ### Runtime Link
 
-To be determined!
+http://155.248.192.185/
 
 - [Team Scrum Board](https://github.com/aaditgupta21/geniuzes/projects/1)
 - [Team Insight Graphs](https://github.com/aaditgupta21/geniuzes/graphs/contributors)
