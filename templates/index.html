@@ -1,5 +1,30 @@
-{% extends "layouts/base.html" %} {% block content %}
-<div>
-    <h1 style="font-size: 60px; margin-bottom: 15px">Playground!</h1>
+{% extends "layouts/base.html" %}
+{% block content %}
+<br>
+<div class="container">
+    <h1 style="text-shadow: 7px 7px black; font-size: 100px; color: white; margin-bottom: 15px">Playground!</h1>
 </div>
+<br>
+<br>
+<img src="\static\playground1.png" id="playground" alt="Playground"/>
+<div class="container">
+    <img src="\static\pink.jpg" id="pinkbox" alt="pinkbox" height="300" width="300">
+    <div style="font-family: 'Peralta', cursive; font-size: 30px" id="cars" class="centered"><a href="/car">Pick a Car!</a></div>
+</div>
+
+<div class="container">
+    <img src="\static\teal.png" id="tealbox" alt="tealbox" height="300" width="300">
+    <div style="font-family: 'Peralta', cursive; font-size: 30px" id="mcolors" class="centered"><a href="/mcolor">Learn About Colors!</a></div>
+</div>
+
+<div class="container">
+    <img src="\static\cornflower.png" id="cornflowerbox" alt="cornflowerbox" height="300" width="300">
+    <div style="font-family: 'Peralta', cursive; font-size: 30px" id="dolls" class="centered">Pick a Doll!</div>
+</div>
+
+<div class="container">
+    <img src="\static\lime.png" id="limebox" alt="limebox" height="300" width="300">
+    <div style="font-family: 'Peralta', cursive; font-size: 30px" id="additions" class="centered"><a href="/addition">Learn Addition!</a></div>
+</div>
+
 {% endblock %}

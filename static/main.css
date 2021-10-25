@@ -33,6 +33,7 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  border-bottom: black;
   width: 50%;
 }
 button{
@@ -52,15 +53,31 @@ button{
 
 h1 {
   text-align: center;
-  font-size: 70px;
+  font-size: 100px;
   font-family: 'Peralta', cursive;
-  color: #577399;
+  color: #00A5CF;
 }
 
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  border: 3px solid green;
+}
+
+.right {
+  position: absolute;
+  right: 0px;
+  width: 300px;
+  border: 3px solid #73AD21;
+  padding: 10px;
+}
 title {
   text-align: center;
-  font-size: 70px;
+  font-size: 80px;
 }
+
 
 a {
   color: black;
@@ -126,8 +143,75 @@ table,
 td,
 th {
   color: black;
+  border-radius: 20%;
+  border-color: black;
 }
+
+
+#playground {
+  position: absolute;
+  left: 32%;
+}
+
+#pinkbox {
+  position: absolute;
+  left: 8%;
+  top: 25%;
+  border: 5px solid black;
+  border-radius: 20px;
+}
+
+#cars {
+  position: absolute;
+  left: 8%;
+  top: 36%;
+}
+
+#tealbox {
+  position: absolute;
+  left: 8%;
+  top: 65%;
+  border: 5px solid black;
+  border-radius: 20px;
+}
+
+#mcolors {
+  position: absolute;
+  left: 8%;
+  top: 76%;
+}
+
+#cornflowerbox {
+  position: absolute;
+  right: 8%;
+  top: 25%;
+  border: 5px solid black;
+  border-radius: 20px;
+}
+
+#dolls {
+  position: absolute;
+  right: 8%;
+  top: 36%;
+}
+
+#limebox {
+  position: absolute;
+  right: 8%;
+  top: 65%;
+  border: 5px solid black;
+  border-radius: 20px;
+}
+
+#additions {
+  position: absolute;
+  right: 8%;
+  top: 76%;
+}
+
 p {
+  font-size: 30px;
+  font-family: 'Peralta', cursive;
   color: white;
 }
 

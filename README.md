@@ -19,6 +19,10 @@ http://155.248.192.185/
 | Rohan Gaikwad  | [@rohang326](https://github.com/rohang326)       | [Tasks](https://github.com/aaditgupta21/geniuzes/issues) | [Scrum Board](https://github.com/aaditgupta21/geniuzes/projects/1) | [Commits](https://github.com/aaditgupta21/geniuzes/commits/main?author=rohang326)    | [Rohit De & Rohan Gaikwad Journal](https://docs.google.com/document/d/1c5PIYwjII7IuVlCnkpn-ORHjwLj-XQIN5B2BWxP6aOw/edit?usp=sharing)     |
 
 
+## Week 9
+
+[Link to Week 9 Issue](https://github.com/aaditgupta21/geniuzes/issues/54)
+
 ## Week 8
 
 ### PBL
