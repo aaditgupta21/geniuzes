@@ -87,3 +87,42 @@ def get_mcolors():
 
 if __name__ == "__main__":
     print(random.choice(mcolor_list))
+
+additions = []
+addition_list = [
+    "1 + 9",
+    "2 + 6",
+    "4 + 5",
+    "3 + 2",
+    "5 + 6",
+    "7 + 1",
+    "4 + 3"
+]
+
+def _find_next_id():
+    return max(additions["id"] for addition in additions) + 1
+
+
+def _init_additions():
+    id = 1
+    for addition in addition_list:
+        additions.append({"id": id, "addition": addition, "haha": 0, "boohoo": 0})
+        id += 1
+
+
+@api_bp.route('/addition')
+def get_addition():
+    if len(additions) == 0:
+        _init_additions()
+    return jsonify(random.choice(additions))
+
+
+@api_bp.route('/additions')
+def get_additions():
+    if len(additions) == 0:
+        _init_additions()
+    return jsonify(additions)
+
+
+if __name__ == "__main__":
+    print(random.choice(addition_list))

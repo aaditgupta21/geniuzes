@@ -113,23 +113,22 @@ def rgb():
     return render_template('rgb.html', images=rawList, colored=colorList, grayed=grayList)
 
 
-
 @app.route('/car', methods=['GET', 'POST'])
 def car():
-    url = "http://localhost:5000/api/car"
+    url = "http://localhost/api/car"
     response = requests.request("GET", url)
     return render_template("car.html", car=response.json())
 
 
 @app.route('/cars', methods=['GET', 'POST'])
 def cars():
-    url = "http://localhost:5000/api/cars"
+    url = "http://localhost/api/cars"
     response = requests.request("GET", url)
     return render_template("cars.html", cars=response.json())
 
 @app.route('/mcolor', methods=['GET', 'POST'])
 def mcolor():
-    url = "http://localhost:5000/api/mcolor"
+    url = "http://localhost/api/mcolor"
     response = requests.request("GET", url)
     if request.form:
         bits = request.form.get("bits")
@@ -137,22 +136,34 @@ def mcolor():
             return render_template("colors.html", bits=int(bits))
     return render_template("mcolor.html", mcolor=response.json(),  bits=8)
 
+@app.route('/addition', methods=['GET', 'POST'])
+def addition():
+    url = "http://localhost/api/addition"
+    response = requests.request("GET", url)
+    return render_template("addition.html", addition=response.json())
+
+@app.route('/additions', methods=['GET', 'POST'])
+def additions():
+    url = "http://localhost/api/additions"
+    response = requests.request("GET", url)
+    return render_template("additions.html", additions=response.json())
+
 # @app.route('/createcolor', methods=['GET', 'POST'])
 # def createcolor():
-#     url = "http://localhost:5000/api/createcolor"
+#     url = "http://localhost/api/createcolor"
 #     response = requests.request("GET", url)
 #     return render_template("createcolor.html", createcolor=response.json())
 #
 # @app.route('/createcolors', methods=['GET', 'POST'])
 # def createcolors():
-#     url = "http://localhost:5000/api/createcolors"
+#     url = "http://localhost/api/createcolors"
 #     response = requests.request("GET", url)
 #     return render_template("createcolors.html", createcolors=response.json())
 
 
 @app.route('/mcolors', methods=['GET', 'POST'])
 def mcolors():
-    url = "http://localhost:5000/api/mcolors"
+    url = "http://localhost/api/mcolors"
     response = requests.request("GET", url)
     return render_template("mcolors.html", mcolors=response.json())
 
@@ -191,6 +202,6 @@ app.register_blueprint(api_bp)
 if __name__ == "__main__":
     app.run(
         debug=True,
-        host="127.0.0.1",
-        port=5000
+        host="0.0.0.0",
+        port=80
     ),
