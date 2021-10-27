@@ -1,39 +1,76 @@
 {% extends "layouts/base.html" %} {% block content %}
 
-<div class="container; center-block" style="color: crimson" <div class="row">
+<div class="container; center-block" style="color: crimson"
+<div class="row">
   <h1 style="font-size: 70px">New Toys</h1>
 </div>
-<div style="color: indianred" <div class="row">
+<div class="row">
   <h4 style="text-align: center">Checkout the latest new toys out there!</h4>
 </div>
 
 <br>
 <script>
 
-  function toytypeCT() {
-    const imageCR = ["https://m.media-amazon.com/images/I/81IjJI3M7SL._AC_SL1500_.jpg"];
-     for(let i=0;i<imageCR.length;i++){
-       const img = document.createElement('img');
-       img.src=imgs[i];
-     }
+  function toytypecreativethinking() {
+   const imageCR = ["https://m.media-amazon.com/images/I/71aYQI5JwBL._AC_SL1500_.jpg",
+     "https://m.media-amazon.com/images/I/515kAp4XiRL._AC_SL1000_.jpg",
+     "https://www.lego.com/cdn/cs/set/assets/blt892f38a4fd55edeb/75257.jpg?fit=bounds&format=jpg&quality=80&width=1500&height=1500&dpr=1",
+     "https://m.media-amazon.com/images/I/91oKfKVZjHL._AC_SL1500_.jpg",
+     "https://m.media-amazon.com/images/I/81dIEAgoytL._AC_SL1500_.jpg"];
+    document.getElementById('image0').src=imageCR[0];
+    document.getElementById('image1').src=imageCR[1];
+    document.getElementById('image2').src=imageCR[2];
+    document.getElementById('image2').src=imageCR[3];
+    document.getElementById('image2').src=imageCR[4];
   }
+  {% set imagesCreativeThinking =
+          ["https://m.media-amazon.com/images/I/71aYQI5JwBL._AC_SL1500_.jpg",
+            "https://m.media-amazon.com/images/I/515kAp4XiRL._AC_SL1000_.jpg",
+            "https://www.lego.com/cdn/cs/set/assets/blt892f38a4fd55edeb/75257.jpg?fit=bounds&format=jpg&quality=80&width=1500&height=1500&dpr=1",
+            "https://m.media-amazon.com/images/I/91oKfKVZjHL._AC_SL1500_.jpg",
+            "https://m.media-amazon.com/images/I/81dIEAgoytL._AC_SL1500_.jpg"
+          ] %}
 
-  function toytypeT() {
-
+  function toytypetoddler() {
+    const imagetoddler = ["https://m.media-amazon.com/images/I/71aYQI5JwBL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/515kAp4XiRL._AC_SL1000_.jpg",
+      "https://www.lego.com/cdn/cs/set/assets/blt892f38a4fd55edeb/75257.jpg?fit=bounds&format=jpg&quality=80&width=1500&height=1500&dpr=1"];
+    document.getElementById('image0').src=imagetoddler[0];
+    document.getElementById('image1').src=imagetoddler[1];
+    document.getElementById('image2').src=imagetoddler[2];
   }
   function toytype34() {
-
+    const imagethreefour = ["https://m.media-amazon.com/images/I/71aYQI5JwBL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/515kAp4XiRL._AC_SL1000_.jpg",
+      "https://www.lego.com/cdn/cs/set/assets/blt892f38a4fd55edeb/75257.jpg?fit=bounds&format=jpg&quality=80&width=1500&height=1500&dpr=1"];
+    document.getElementById('image0').src=imagethreefour[0];
+    document.getElementById('image1').src=imagethreefour[1];
+    document.getElementById('image2').src=imagethreefour[2];
   }
   function toytype56() {
-
+    const imagefivesix = ["https://m.media-amazon.com/images/I/71aYQI5JwBL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/515kAp4XiRL._AC_SL1000_.jpg",
+      "https://www.lego.com/cdn/cs/set/assets/blt892f38a4fd55edeb/75257.jpg?fit=bounds&format=jpg&quality=80&width=1500&height=1500&dpr=1"];
+    document.getElementById('image0').src=imagefivesix[0];
+    document.getElementById('image1').src=imagefivesix[1];
+    document.getElementById('image2').src=imagefivesix[2];
   }
-
-
 </script>
-<input type="button" onclick="toytypeCT()" value="Toddler Toys"/>
-<input type="button" onclick="toytypeT()" value="Toys for 3-4 Years Old"/>
-<input type="button" onclick="toytype34()" value="Toys for 5-6 Years Old"/>
-<input type="button" onclick="toytype56()" value="Creative Thinking"/>
+<input type="button" onclick="toytypetoddler()" value="Toddler Toys"/>
+<input type="button" onclick="toytype34()" value="Toys for 3-4 Years Old"/>
+<input type="button" onclick="toytype56()" value="Toys for 5-6 Years Old"/>
+<input type="button" onclick="toytypecreativethinking()" value="Creative Thinking"/>
+<br>
+</br>
+<img src="https://www.iconsdb.com/icons/preview/white/square-xxl.png" id="image0">
+<br>
+<img src="https://www.iconsdb.com/icons/preview/white/square-xxl.png" id="image1">
+<br>
+<img src="https://www.iconsdb.com/icons/preview/white/square-xxl.png" id="image2">
+<br>
+  <img src="https://www.iconsdb.com/icons/preview/white/square-xxl.png" id="image3">
+<br>
+  <img src="https://www.iconsdb.com/icons/preview/white/square-xxl.png" id="image4">
 
 
 
