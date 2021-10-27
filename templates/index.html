@@ -14,7 +14,7 @@
 
 <div class="container">
     <img src="\static\teal.png" id="tealbox" alt="tealbox" height="300" width="300">
-    <div style="font-family: 'Peralta', cursive; font-size: 30px" id="mcolors" class="centered"><a href="/mcolor">Learn About Colors!</a></div>
+    <div style="font-family: 'Peralta', cursive; font-size: 30px" id="mcolors" class="centered"><a href="/mcolor">Learn About </br>Colors!</a></div>
 </div>
 
 <div class="container">
@@ -24,7 +24,37 @@
 
 <div class="container">
     <img src="\static\lime.png" id="limebox" alt="limebox" height="300" width="300">
-    <div style="font-family: 'Peralta', cursive; font-size: 30px" id="additions" class="centered"><a href="/addition">Learn Addition!</a></div>
+    <div style="font-family: 'Peralta', cursive; font-size: 30px" id="additions" class="centered"><a href="/addition">Learn </br>Addition!</a></div>
 </div>
 
+
+<script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-app.js"></script>
+
+<!-- Add Firebase products that you want to use -->
+<script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-firestore.js"></script>
+
+<script>
+    const config = {
+        apiKey: "AIzaSyACFmlboOdQnFQbHVabfaq1VPiC63hVxmQ",
+        authDomain: "playground-fba66.firebaseapp.com",
+        projectId: "playground-fba66",
+        storageBucket: "playground-fba66.appspot.com",
+        messagingSenderId: "497731525881",
+        appId: "1:497731525881:web:a30edc4e642cbf50c39628",
+    };
+    if (firebase.apps.length === 0) {
+        firebase.initializeApp(config);
+        console.log("worked");
+    }
+    const auth = firebase.auth();
+
+    auth.onAuthStateChanged(function(user) {
+        if (user) {
+            console.log("Signed in");
+        } else {
+            window.location.pathname = '/signup'
+        }
+    })
+</script>
 {% endblock %}
