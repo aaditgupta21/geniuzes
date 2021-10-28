@@ -56,6 +56,7 @@ h1 {
   font-size: 100px;
   font-family: 'Peralta', cursive;
   color: #00A5CF;
+  text-shadow: 4px 4px black;
 }
 
 .center {
