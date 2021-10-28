@@ -56,6 +56,7 @@ h1 {
   font-size: 100px;
   font-family: 'Peralta', cursive;
   color: #00A5CF;
+  text-shadow: 4px 4px black;
 }
 
 .center {
@@ -84,7 +85,7 @@ h4 {
 
 a {
   color: black;
-  margin-bottom: 60px"
+  margin-bottom: 60px";
 }
 
 .fa {
@@ -146,70 +147,78 @@ table,
 td,
 th {
   color: black;
-  border-radius: 20%;
+  border-radius: 25%;
   border-color: black;
 }
 
 
 #playground {
   position: absolute;
-  left: 32%;
+  left: 610px;
 }
 
 #pinkbox {
   position: absolute;
-  left: 8%;
-  top: 25%;
+  left: 100px;
+  top: 220px;
   border: 5px solid black;
   border-radius: 20px;
 }
 
 #cars {
   position: absolute;
-  left: 8%;
-  top: 36%;
+  left: 153px;
+  top: 340px;
+  color: black;
+  text-shadow: 2px 2px black;
 }
 
 #tealbox {
   position: absolute;
-  left: 8%;
-  top: 65%;
+  left: 100px;
+  top: 610px;
   border: 5px solid black;
   border-radius: 20px;
 }
 
 #mcolors {
   position: absolute;
-  left: 8%;
-  top: 76%;
+  left: 140px;
+  top: 700px;
+  color: black;
+  text-shadow: 2px 2px black;
 }
 
 #cornflowerbox {
   position: absolute;
-  right: 8%;
-  top: 25%;
+  right: 100px;
+  top: 220px;
   border: 5px solid black;
   border-radius: 20px;
 }
 
-#dolls {
+#toys {
   position: absolute;
-  right: 8%;
-  top: 36%;
+  right: 153px;
+  top: 340px;
+  color: black;
+  text-shadow: 2px 2px black;
 }
 
 #limebox {
   position: absolute;
-  right: 8%;
-  top: 65%;
+  right: 100px;
+  top: 610px;
   border: 5px solid black;
   border-radius: 20px;
 }
 
 #additions {
   position: absolute;
-  right: 8%;
-  top: 76%;
+  right: 160px;
+  top: 700px;
+  color: black;
+  text-shadow: 2px 2px black;
 }
 
 p {
