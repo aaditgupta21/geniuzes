@@ -84,7 +84,7 @@ h4 {
 
 a {
   color: black;
-  margin-bottom: 60px"
+  margin-bottom: 60px";
 }
 
 .fa {
@@ -168,6 +168,8 @@ th {
   position: absolute;
   left: 153px;
   top: 340px;
+  color: black;
+  text-shadow: 2px 2px black;
 }
 
 #tealbox {
@@ -182,6 +184,8 @@ th {
   position: absolute;
   left: 140px;
   top: 700px;
+  color: black;
+  text-shadow: 2px 2px black;
 }
 
 #cornflowerbox {
@@ -192,10 +196,12 @@ th {
   border-radius: 20px;
 }
 
-#dolls {
+#toys {
   position: absolute;
   right: 153px;
   top: 340px;
+  color: black;
+  text-shadow: 2px 2px black;
 }
 
 #limebox {
@@ -210,6 +216,8 @@ th {
   position: absolute;
   right: 160px;
   top: 700px;
+  color: black;
+  text-shadow: 2px 2px black;
 }
 
 p {
