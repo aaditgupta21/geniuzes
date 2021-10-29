@@ -12,22 +12,24 @@
         <!-- Input and Content -->
         <div style="text-align: center; font-size: 70px">
             <div class="col-md">
-                <p class="setup"><strong style="color: #00A5CF">{{addition.addition}}</strong></p>
+                <p class="setup"><strong style="color: black">{{addition.addition}}</strong></p>
             </div>
         </div>
         <form action={{url_for('addition')}}>
             <button>Refresh!</button>
         </form>
     </div>
-    <table style="margin: 2%; text-align: center">
-        <tr>
-            <th>JSON Data</th>
-        </tr>
-        <tr>
-            <td>{{addition}}</td>
-        </tr>
-    </table>
-<script>
-</script>
+</div>
+<div class="col-13">
+    <form action="/answer1" id="math1" method="POST">
+        <label for="answer">Answer here!</label>
+        <input name="answer" id="answer" />
+        <input type="submit" value="Go!" />
+    </form>
+    <form action="/rohan" id="greet" method="POST">
+        <label for="name">WUSYANAME?</label>
+        <input name="name" id="name" />
+        <input type="submit" value="press da button!" />
+    </form>
 </div>
 {% endblock %}
