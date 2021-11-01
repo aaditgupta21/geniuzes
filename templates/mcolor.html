@@ -30,7 +30,7 @@
 
 
   
-  <table style="margin: 2%">
+  <table align="center">
     <tr>
       <th>JSON Data</th>
     </tr>
@@ -38,8 +38,6 @@
       <td>{{mcolor}}</td>
     </tr>
   </table>
-
-  <title>Binary page</title>
 
   <script>
     const BITS = '{{ BITS }}'; let max = '{{ MAX }}'; let MAX = parseInt(max, 10);
@@ -157,7 +155,7 @@
     }
   </script>
 
-  <h1 style="color: crimson" class="text-center">Create the Color!</h1>
+  <h1  class="text-center">Create the Color!</h1>
   <form action="/colorcodes" id="bits" method="POST">
     <!--  <label for="bits"></label>-->
     <input placeholder="Enter Bits!" name="bits" id="bits" />

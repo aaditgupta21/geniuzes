@@ -1,0 +1,153 @@
+<!--<!DOCTYPE html>-->
+<!--{% extends "layouts/base.html" %}-->
+
+<!--{% block body %}-->
+<!--&lt;!&ndash;<h2>Animal Pic</h2>&ndash;&gt;-->
+<!--&lt;!&ndash;<img src="static/img/" + animals('{{i}}'" alt="Whale" onclick=https://www.google.com/logos/fnbx/animal_sounds/raccoon.mp3 style="width:128px;height:128px;">&ndash;&gt;-->
+
+
+
+<!--<script>-->
+
+<!--    var animalname = ['antelope+', 'racoon', 'whale', 'turkey'];-->
+
+<!--    var animalimg = [-->
+<!--        'static/img/animals/antelope.jpg',-->
+<!--        'static/img/animals/racoon.jpg',-->
+<!--        'static/img/animals/whale.jpg',-->
+<!--        'static/img/animals/turkey.jpg'-->
+<!--    ]-->
+
+<!--    var animalsound = [-->
+<!--        'static/img/animals/antelope.mp3',-->
+<!--        'static/img/animals/racoon.mp3',-->
+<!--        'static/img/animals/whale.mp3',-->
+<!--        'static/img/animals/turkey.mp3'-->
+<!--    ]-->
+
+
+
+<!--    function playanimalsound(i) {-->
+<!--        var aniAudio = new Audio(animalsound[i]);-->
+<!--        aniAudio.play();-->
+
+<!--        }-->
+
+<!--    function buildImages() {-->
+<!--        for (var i = 0; i < animalimg.length; i++) {-->
+
+<!--            var a = document.createElement("img");-->
+<!--            a.id = animalname[i];-->
+<!--            a.src = animalimg[i];-->
+<!--            a.width = 276;-->
+<!--            a.height = 110;-->
+<!--            a.alt = animalname[i];-->
+<!--            a.addEventListener("click", function() {-->
+<!--                console.log("clicked");-->
+<!--            })-->
+<!--            a.onclick = playanimalsound(i);-->
+<!--            document.body.appendChild(a);-->
+<!--        }-->
+<!--    }-->
+
+<!--    buildImages();-->
+
+<!--</script>-->
+
+<!--</head>-->
+
+<!--<body>-->
+
+<!--<h1 class="text-center">Animal Pictures and Sounds</h1>-->
+
+
+<!--&lt;!&ndash;<p id="demo"></p>&ndash;&gt;-->
+<!--&lt;!&ndash;<div onload="buildImages();" class="contents" id="content"></div>&ndash;&gt;-->
+
+<!--</body>-->
+<!--</html>-->
+
+
+<!--{% endblock %}-->
+
+<!DOCTYPE html>
+{% extends "layouts/base.html" %}
+
+{% block body %}
+<!--<h2>Animal Pic</h2>-->
+<!--<img src="static/img/" + animals('{{i}}'" alt="Whale" onclick=https://www.google.com/logos/fnbx/animal_sounds/raccoon.mp3 style="width:128px;height:128px;">-->
+
+
+<script>
+
+    var animalname = ['dog', 'cat'];
+
+    var animalimg = [
+        'dog.jpg',
+        'cat.jpg',
+    ]
+
+    var animalsound = [
+        'dog.mp3',
+        'cat.mp3',
+    ]
+
+    //var aniAudio = new Audio[animalimg.length];
+    var aniAudio =[];
+
+    //function playanimalsound(i) {
+    //    var aniAudio = new Audio(animalsound[i]);
+    //    aniAudio.play();
+    //    }
+    //a.onclick = playanimalsound(i);
+
+    function buildImages() {
+        for (let i = 0; i < animalimg.length; i++) {
+            aniAudio[i] = new Audio(animalsound[i]);
+            let a = document.createElement("img");
+            a.id = i;
+            a.src = animalimg[i];
+            a.width = 200;
+            a.height = 200;
+            a.alt = animalname[i];
+
+            a.addEventListener("click", function() {
+                // Every time on Click() event RESET everything, i.e., all images are changed
+                //  to original zero border and none of the audio plays
+                for (var i = 0; i < animalimg.length; i++) {
+                    var prev_a = document.getElementById(i);
+                    prev_a.style.border = "";
+                    prev_a.style.borderRadius = "";
+                    aniAudio[i].pause();
+                }
+                a.style.border = "10px solid red";
+                a.style.borderRadius = "10px";
+                //var aniAudio = new Audio(animalsound[a.id]);
+                aniAudio[a.id].play();
+            })
+
+            document.body.appendChild(a);
+        }
+    }
+
+    buildImages();
+
+</script>
+
+</head>
+
+<body>
+
+<h1 class="text-center">Animal Pictures and Sounds</h1>
+
+
+<!--<p id="demo"></p>-->
+<!--<div onload="buildImages();" class="contents" id="content"></div>-->
+
+</body>
+</html>
+
+
+{% endblock %}
+
+
