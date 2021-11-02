@@ -192,6 +192,11 @@ def aboutus():
 def signup():
     return render_template("signup.html")
 
+@app.route('/animalSounds')
+def animalSounds():
+    return render_template("animalSounds.html")
+
+
 @app.route('/login')
 def login():
     return render_template("login.html")

@@ -19,6 +19,8 @@
 {% set imgBulbOff = "/static/bulb_off.png" %}
 {% set msgTurnOn = "Turn On" %}
 {% set msgTurnOff = "Turn Off" %}
+<!--{% set colorbackground = "#000000" %}-->
+
 
 {% block meta %}
 <title>Binary page</title>
@@ -45,6 +47,7 @@
         B_blue = String(B_blue).padStart(2, '0');
 
         document.body.style.background = "#"+R_red+G_green+B_blue;
+        // document.getElementById("row justify-content-md-center").style.color = "#"+R_red+G_green+B_blue;
 
         document.getElementById('hexlabel').innerHTML = "Hex Value #"+R_red+G_green+B_blue;
 
@@ -141,15 +144,22 @@
 {% endblock %}
 
 {% block body %}
+<!--<style>-->
+<!--    html, body {-->
+
+<!--        background-color = "{{ colorbackground }}";-->
+<!--        /*/*position: fixed;*/*/-->
+<!--    }-->
+<!--</style>-->
+
 <h1 style="color: crimson" class="text-center">Color Codes</h1>
 <form action="/colorcodes" id="bits" method="POST">
     <!--  <label for="bits"></label>-->
     <input placeholder="Enter Bits!" name="bits" id="bits" />
     <input type="submit" value="Go!" />
 </form>
-<div class="container">
+<div class="container"><small>
     <div class="row justify-content-md-center">
-
         <div class="col-8">
             <table class="table">
                 <tr id="table">
@@ -199,10 +209,6 @@
                 </tr>
             </table>
         </div>
-
-        <!--    second div-->
-
-
         <div class="col-8">
             <table class="table">
                 <tr id="table">
@@ -287,5 +293,5 @@
             </table>
         </div>
     </div>
-</div>
+</div></small>
 {% endblock %}
