@@ -147,13 +147,6 @@ def additions():
     url = "http://localhost/api/additions"
     response = requests.request("GET", url)
     return render_template("additions.html", additions=response.json())
-def answer():
-    if request.form:
-        name = request.form.get("name")
-        if len(name) != 0:
-            return render_template("addition.html", name=name)
-    return render_template("addition.html", name="World")
-
 
 # @app.route('/createcolor', methods=['GET', 'POST'])
 # def createcolor():
