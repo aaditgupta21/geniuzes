@@ -88,15 +88,19 @@ def get_mcolors():
 if __name__ == "__main__":
     print(random.choice(mcolor_list))
 
+eq1 = (1,6)
+eq2 = (4,5)
+eq3 = (2,3)
+eq4 = (3,1)
+eq5 = (7,2)
+
 additions = []
 addition_list = [
-    "1 + 9",
-    "2 + 6",
-    "4 + 5",
-    "3 + 2",
-    "5 + 6",
-    "7 + 1",
-    "4 + 3"
+    eq1,
+    eq2,
+    eq3,
+    eq4,
+    eq5,
 ]
 
 def _find_next_id():

@@ -1,35 +1,38 @@
 <!DOCTYPE html>
 {% extends "layouts/base.html" %}
-
 {% block body %}
+<script>
+    var an1: 7
+    var an2: 9
+    var an3: 5
+    var an4: 4
+    var an5: 9
+    function addition() {
+    }
+</script>
 <div class="container">
 
     <div class="center-block" style="margin: 2% 5% 5%; font-family: gilroy,serif;">
         <div class="col-12" style="text-align: center;">
-            <h1><strong style="font-size: 80px; color: #00A5CF; text-align: center">Easy Math! </strong></h1>
+            <h1><strong style="font-size: 80px; color: #00A5CF; text-align: center">Easy Math!</strong></h1>
         </div>
 
         <!-- Input and Content -->
         <div style="text-align: center; font-size: 70px">
             <div class="col-md">
-                <p class="setup"><strong style="color: black">{{addition.addition}}</strong></p>
+                <p class="setup"><strong style="color: black">{{addition.addition[0]}} + {{addition.addition[1]}}</strong></p>
             </div>
         </div>
         <form action={{url_for('addition')}}>
-            <button>Refresh!</button>
+            <button>Next Question!</button>
         </form>
     </div>
 </div>
 <div class="col-13">
-    <form action="/answer1" id="math1" method="POST">
+    <form action="/addition" id="answer1" method="GET">
         <label for="answer">Answer here!</label>
-        <input name="answer" id="answer" />
-        <input type="submit" value="Go!" />
-    </form>
-    <form action="/rohan" id="greet" method="POST">
-        <label for="name">WUSYANAME?</label>
-        <input name="name" id="name" />
-        <input type="submit" value="press da button!" />
+        <input type="text" name="inputbox" id="answer" />
+        <input type="button" name="button" value="Go!" onClick="addition(this.form)">
     </form>
 </div>
 {% endblock %}
