@@ -18,12 +18,12 @@ http://155.248.192.185/
 | Rohit De       | [@rohitd3](https://github.com/rohitd3)           | [Tasks](https://github.com/aaditgupta21/geniuzes/issues) | [Scrum Board](https://github.com/aaditgupta21/geniuzes/projects/1) | [Commits](https://github.com/aaditgupta21/geniuzes/commits/main?author=rohitd3)      | [Rohit De & Rohan Gaikwad Journal](https://docs.google.com/document/d/1c5PIYwjII7IuVlCnkpn-ORHjwLj-XQIN5B2BWxP6aOw/edit?usp=sharing)     |
 | Rohan Gaikwad  | [@rohang326](https://github.com/rohang326)       | [Tasks](https://github.com/aaditgupta21/geniuzes/issues) | [Scrum Board](https://github.com/aaditgupta21/geniuzes/projects/1) | [Commits](https://github.com/aaditgupta21/geniuzes/commits/main?author=rohang326)    | [Rohit De & Rohan Gaikwad Journal](https://docs.google.com/document/d/1c5PIYwjII7IuVlCnkpn-ORHjwLj-XQIN5B2BWxP6aOw/edit?usp=sharing)     |
 
-## Week 10
+## Week 11
 - Rohan re-designed page and created an api for easy math (finishing up textbox to add numbers)
 - Adi redid new toys page to make it onclick and added categories to sort them
 - Aadit deployed website and created a login/signup page using firebase
 - Rohit created an animal sounds page with pictures that you can click on to play a sound
-
+- [Link to Poll](https://docs.google.com/forms/d/e/1FAIpQLSe26q5y1f8eaFx1GkRAjQfrun6RQwBy2drHHUTA2syLSFJoew/viewform?usp=sf_link)
 ## Week 9
 
 [Link to Week 9 Issue](https://github.com/aaditgupta21/geniuzes/issues/54)
