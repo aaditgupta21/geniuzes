@@ -201,6 +201,11 @@ def animalSounds():
 def login():
     return render_template("login.html")
 
+@app.route('/forget')
+def forget():
+    return render_template("forget.html")
+
+
 
 app.register_blueprint(api_bp)
 
@@ -208,5 +213,5 @@ if __name__ == "__main__":
     app.run(
         debug=True,
         host="0.0.0.0",
-        port=80
+        port=5000
     ),
