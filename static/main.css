@@ -59,6 +59,12 @@ h1 {
   text-shadow: 4px 4px black;
 }
 
+label {
+  font-family: 'Peralta', cursive;
+  color: #00A5CF;
+  text-shadow: 2px 2px black;
+}
+
 .right {
   position: absolute;
   right: 0px;
