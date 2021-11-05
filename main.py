@@ -138,7 +138,7 @@ def mcolor():
 
 @app.route('/addition', methods=['GET', 'POST'])
 def addition():
-    url = "http://localhost/api/addition"
+    url = "http://localhost:5000/api/addition"
     response = requests.request("GET", url)
     return render_template("addition.html", addition=response.json())
 

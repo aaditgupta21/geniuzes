@@ -2,13 +2,12 @@
 {% extends "layouts/base.html" %}
 {% block body %}
 <script>
-    var an1: 7
-    var an2: 9
-    var an3: 5
-    var an4: 4
-    var an5: 9
-    function addition() {
+    function output(){
+        var value1 = parseInt(document.getElementById('value1').value);
+        var value2 = parseInt(document.getElementById('value2').value);
+        document.getElementById('result').innerHTML = value1 + value2;
     }
+
 </script>
 <div class="container">
 
@@ -20,7 +19,7 @@
         <!-- Input and Content -->
         <div style="text-align: center; font-size: 70px">
             <div class="col-md">
-                <p class="setup"><strong style="color: black">{{addition.addition[0]}} + {{addition.addition[1]}}</strong></p>
+                <p class="setup"><strong style="color: black">{{addition.addition}}</strong></p>
             </div>
         </div>
         <form action={{url_for('addition')}}>
@@ -28,11 +27,22 @@
         </form>
     </div>
 </div>
-<div class="col-13">
-    <form action="/addition" id="answer1" method="GET">
-        <label for="answer">Answer here!</label>
-        <input type="text" name="inputbox" id="answer" />
-        <input type="button" name="button" value="Go!" onClick="addition(this.form)">
-    </form>
-</div>
+<p id="result"> </p>
+<label for="value1">Value 1</label>
+<input  id="value1" type="text" />
+</br>
+<label for="value2">Value 2</label>
+<input id="value2" type="text"/>
+</br>
+<input type="submit" onclick="output();">
+<!--<div class="col-13">-->
+<!--        <label for="value1">Value 1</label>-->
+<!--        <input type="text" name="inputbox1" id="value1" />-->
+<!--        </br>-->
+<!--        <label for="value2">Value 2</label>-->
+<!--        <input type="text" name="inputbox2" id="value2" />-->
+<!--        </br>-->
+<!--        <input type="submit" name="button" value="Go!" onclick="output();">-->
+<!--        <p id="result"> </p>-->
+<!--</div>-->
 {% endblock %}
