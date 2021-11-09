@@ -136,6 +136,12 @@ def mcolor():
             return render_template("colors.html", bits=int(bits))
     return render_template("mcolor.html", mcolor=response.json(),  bits=8)
 
+@app.route('/toyapi', methods=['GET', 'POST'])
+def toyapi():
+    url = "http://localhost:5000/api/toyapi"
+    response = requests.request("GET", url)
+    return render_template("toyapi.html", toyapi=response.json())
+
 @app.route('/addition', methods=['GET', 'POST'])
 def addition():
     url = "http://localhost:5000/api/addition"

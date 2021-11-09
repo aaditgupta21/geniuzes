@@ -88,6 +88,42 @@ def get_mcolors():
 if __name__ == "__main__":
     print(random.choice(mcolor_list))
 
+toyapis = []
+toyapi_list = [
+    "https://i5.walmartimages.com/asr/50250727-4357-441d-9b85-f251b0036cec.5800e03cef5137ac7a5233862da3fa22.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFFg",
+    "https://www.lego.com/cdn/cs/set/assets/blt892f38a4fd55edeb/75257.jpg?fit=bounds&format=jpg&quality=80&width=150&height=1500&dpr=1",
+    "https://m.media-amazon.com/images/I/81dIEAgoytL._AC_SL1500_.jpg"
+]
+
+def _find_next_id():
+    return max(toyapis["id"] for toyapi in toyapis) + 1
+
+
+def _init_toyapis():
+    id = 1
+    for toyapi in toyapi_list:
+        toyapis.append({"id": id, "toyapi": toyapi, "haha": 0, "boohoo": 0})
+        id += 1
+
+
+@api_bp.route('/toyapi')
+def get_toyapi():
+    if len(toyapis) == 0:
+        _init_toyapis()
+        print(toyapis)
+    return jsonify(random.choice(toyapis))
+
+
+@api_bp.route('/toyapis')
+def get_toyapis():
+    if len(toyapis) == 0:
+        _init_toyapis()
+    return jsonify(toyapis)
+
+
+if __name__ == "__main__":
+    print(random.choice(toyapi_list))
+
 eq1 = (1,6)
 eq2 = (4,5)
 eq3 = (2,3)
@@ -130,3 +166,8 @@ def get_additions():
 
 if __name__ == "__main__":
     print(random.choice(addition_list))
+
+    [{'id': 1, 'toyapi': 'https://i5.walmartimages.com/asr/50250727-4357-441d-9b85-f251b0036cec.5800e03cef5137ac7a5233862da3fa22.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFFg', 'haha': 0, 'boohoo': 0},
+     {'id': 2, 'toyapi': 'https://www.lego.com/cdn/cs/set/assets/blt892f38a4fd55edeb/75257.jpg?fit=bounds&format=jpg&quality=80&width=1500&height=1500&dpr=1', 'haha': 0, 'boohoo': 0},
+     {'id': 3, 'toyapi': 'https://m.media-amazon.com/images/I/81dIEAgoytL._AC_SL1500_.jpg', 'haha': 0, 'boohoo': 0}]
+
