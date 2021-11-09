@@ -90,9 +90,15 @@ if __name__ == "__main__":
 
 toyapis = []
 toyapi_list = [
-    "https://i5.walmartimages.com/asr/50250727-4357-441d-9b85-f251b0036cec.5800e03cef5137ac7a5233862da3fa22.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFFg",
-    "https://www.lego.com/cdn/cs/set/assets/blt892f38a4fd55edeb/75257.jpg?fit=bounds&format=jpg&quality=80&width=150&height=1500&dpr=1",
-    "https://m.media-amazon.com/images/I/81dIEAgoytL._AC_SL1500_.jpg"
+    "https://i5.walmartimages.com/asr/35e46d6a-118d-4f93-bbdc-1afa719ae006_1.87845513c6d388ab4f25ad5db150fcd7.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+    "https://i5.walmartimages.com/asr/1184195e-de3c-47f1-b48b-7bc7763e042f.192ec508863ae402296fcbaa025368f1.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+    "https://i5.walmartimages.com/asr/3c58b072-80c6-4fe4-bd77-a3b8023a733a_3.d88f70ff6884621607fa48df1cda78b0.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+    "https://i5.walmartimages.com/asr/89df7e3c-0ca8-46b7-bd9b-70a6633ef0c6.cfaa19f8d7d2ceeed6acde845c85f420.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+    "https://i5.walmartimages.com/asr/66b1fdc9-f788-445e-9d3c-cbe5ccac3cc1.3a73b81800c180962abdb630c2f5ddd9.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+    "https://i5.walmartimages.com/asr/d203b6a9-350e-4b65-9bf7-f00848e19c77.07f4e40b3c0244ba6a738bb26342e0a7.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+    "https://i5.walmartimages.com/asr/6a6df5d1-c8d1-49c1-bf20-77fe5fd12a5d_1.47cf8ce7577702ae3d9b8f17085df5ee.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+    "https://i5.walmartimages.com/asr/4c1030dc-d0e4-4ebb-9417-144a3e16e937_1.b41508d1731e263429a94827969fe15e.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+    "https://i5.walmartimages.com/asr/e4b13995-6ab9-444b-944a-68a7e71627f3.70a027398be757f85d2e42e3558c7fe9.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF"
 ]
 
 def _find_next_id():
