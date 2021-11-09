@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+{% extends "layouts/base.html" %}
+{% block body %}
+<div class="container">
+
+    <div class="center-block" style="margin: 2% 5% 5%; font-family: gilroy,serif;">
+        <div class="col-12" style="text-align: center;">
+            <h1><strong style="font-size: 80px; color: #00A5CF; text-align: center">New Toys</strong></h1>
+        </div>
+
+        <!-- Input and Content -->
+        <div style="text-align: center; font-size: 70px">
+            <div class="col-md">
+                <img width="500" height="500" src={{ toyapi.toyapi }}/>
+            </div>
+        </div>
+        <form action={{url_for('toyapi')}}>
+            <button>Find a New Toy</button>
+        </form>
+    </div>
+</div>
+{% endblock %}
